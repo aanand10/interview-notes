@@ -1,0 +1,75 @@
+[
+  {
+    "id": "js-closures",
+    "title": "Closures",
+    "category": "JavaScript",
+    "priority": "high",
+    "tags": ["fundamentals", "scope"],
+    "note": "notes/javascript/closures.md",
+    "resources": [
+      { "label": "javascript.info: Closures", "url": "https://javascript.info/closure" },
+      { "label": "MDN: Closures", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" }
+    ]
+  },
+  {
+    "id": "js-event-loop",
+    "title": "Event Loop",
+    "category": "JavaScript",
+    "priority": "high",
+    "tags": ["fundamentals", "async"],
+    "note": "notes/javascript/event-loop.md",
+    "resources": [
+      { "label": "javascript.info: Event loop", "url": "https://javascript.info/event-loop" }
+    ]
+  },
+  {
+    "id": "js-promises",
+    "title": "Promises & async/await",
+    "category": "JavaScript",
+    "priority": "medium",
+    "tags": ["async"],
+    "resources": [
+      { "label": "javascript.info: Promises", "url": "https://javascript.info/promise-basics" }
+    ]
+  },
+  {
+    "id": "react-reconciliation",
+    "title": "Reconciliation & keys",
+    "category": "React",
+    "priority": "medium",
+    "tags": ["rendering"],
+    "note": "notes/react/reconciliation.md",
+    "resources": [
+      { "label": "react.dev: Preserving and resetting state", "url": "https://react.dev/learn/preserving-and-resetting-state" }
+    ]
+  },
+  {
+    "id": "react-hooks-rules",
+    "title": "Rules of Hooks",
+    "category": "React",
+    "priority": "low",
+    "tags": ["fundamentals"],
+    "resources": [
+      { "label": "react.dev: Rules of Hooks", "url": "https://react.dev/reference/rules/rules-of-hooks" }
+    ]
+  },
+  {
+    "id": "sd-caching",
+    "title": "Caching strategies",
+    "category": "System Design",
+    "priority": "high",
+    "tags": ["scalability"],
+    "note": "notes/system-design/caching.md",
+    "resources": []
+  },
+  {
+    "id": "dsa-two-pointers",
+    "title": "Two pointers",
+    "category": "DSA",
+    "priority": "medium",
+    "tags": ["arrays", "patterns"],
+    "resources": [
+      { "label": "LeetCode: Two pointers problems", "url": "https://leetcode.com/tag/two-pointers/" }
+    ]
+  }
+]
