@@ -3,6 +3,7 @@
     "id": "js-var-let-const",
     "title": "var, let, const",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -32,6 +33,7 @@
     "id": "js-hoisting-and-tdz",
     "title": "Hoisting and TDZ",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -61,6 +63,7 @@
     "id": "js-scope-and-scope-chain",
     "title": "Scope and scope chain",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -90,6 +93,7 @@
     "id": "js-closures",
     "title": "Closures",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -119,6 +123,7 @@
     "id": "js-this-keyword",
     "title": "`this` keyword",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -148,6 +153,7 @@
     "id": "js-call-apply-bind",
     "title": "call, apply, bind",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -177,6 +183,7 @@
     "id": "js-arrow-functions",
     "title": "Arrow functions",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -206,6 +213,7 @@
     "id": "js-prototypes-and-inheritance",
     "title": "Prototypes and inheritance",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -235,6 +243,7 @@
     "id": "js-es6-classes",
     "title": "ES6 classes",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -264,6 +273,7 @@
     "id": "js-currying",
     "title": "Currying",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1",
@@ -293,6 +303,7 @@
     "id": "js-higher-order-functions",
     "title": "Higher-order functions",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -322,6 +333,7 @@
     "id": "js-equality-and-coercion",
     "title": "Equality and coercion",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -351,6 +363,7 @@
     "id": "js-data-types",
     "title": "Data types",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -380,6 +393,7 @@
     "id": "js-objects",
     "title": "Objects",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -409,6 +423,7 @@
     "id": "js-arrays",
     "title": "Arrays",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -438,6 +453,7 @@
     "id": "js-modern-syntax",
     "title": "Modern syntax",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -467,6 +483,7 @@
     "id": "js-error-handling",
     "title": "Error handling",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -496,6 +513,7 @@
     "id": "js-modules",
     "title": "Modules",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -525,6 +543,7 @@
     "id": "js-map-set-weakmap-weakset",
     "title": "Map, Set, WeakMap, WeakSet",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1",
@@ -554,6 +573,7 @@
     "id": "js-iife-and-strict-mode",
     "title": "IIFE and strict mode",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1",
@@ -579,6 +599,7 @@
     "id": "js-generators-and-iterators",
     "title": "Generators and iterators",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1",
@@ -608,6 +629,7 @@
     "id": "js-proxy-and-reflect",
     "title": "Proxy and Reflect",
     "category": "JavaScript core",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1",
@@ -633,6 +655,7 @@
     "id": "js-event-loop",
     "title": "Event loop",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -661,6 +684,7 @@
     "id": "async-microtasks-vs-macrotasks",
     "title": "Microtasks vs macrotasks",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -689,6 +713,7 @@
     "id": "js-promises",
     "title": "Promises",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -717,6 +742,7 @@
     "id": "async-async-await",
     "title": "async/await",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -745,6 +771,7 @@
     "id": "async-promise-combinators",
     "title": "Promise combinators",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -773,6 +800,7 @@
     "id": "async-sequential-vs-parallel",
     "title": "Sequential vs parallel",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -801,6 +829,7 @@
     "id": "async-fetch",
     "title": "fetch",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -829,6 +858,7 @@
     "id": "async-abortcontroller-and-timeouts",
     "title": "AbortController and timeouts",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -857,6 +887,7 @@
     "id": "async-race-conditions",
     "title": "Race conditions",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -885,6 +916,7 @@
     "id": "async-retry-with-backoff",
     "title": "Retry with backoff",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -913,6 +945,7 @@
     "id": "async-concurrency-limit",
     "title": "Concurrency limit",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -937,6 +970,7 @@
     "id": "async-callbacks",
     "title": "Callbacks",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -965,6 +999,7 @@
     "id": "async-timers",
     "title": "Timers",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -993,6 +1028,7 @@
     "id": "async-unhandled-rejections",
     "title": "Unhandled rejections",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1021,6 +1057,7 @@
     "id": "async-async-iteration",
     "title": "Async iteration",
     "category": "Async JavaScript",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1"
@@ -1045,6 +1082,7 @@
     "id": "jsq-output-scope-hoisting",
     "title": "Output questions: scope, hoisting, closures",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1073,6 +1111,7 @@
     "id": "jsq-output-this",
     "title": "Output questions: this and binding",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1101,6 +1140,7 @@
     "id": "jsq-output-async",
     "title": "Output questions: promises and event loop",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1129,6 +1169,7 @@
     "id": "jsq-output-coercion",
     "title": "Output questions: types and coercion",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1157,6 +1198,7 @@
     "id": "jsq-coding-questions",
     "title": "Common JS coding questions",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1185,6 +1227,7 @@
     "id": "jsq-tricky-concepts",
     "title": "Tricky JS concepts interviewers love",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1213,6 +1256,7 @@
     "id": "jsq-pure-functions-immutability",
     "title": "Pure functions and immutability",
     "category": "JS question bank",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1241,6 +1285,7 @@
     "id": "poly-array-reduce",
     "title": "`Array.prototype.reduce`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1269,6 +1314,7 @@
     "id": "poly-array-map-filter-foreach",
     "title": "`Array.prototype.map` / `filter` / `forEach`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1297,6 +1343,7 @@
     "id": "poly-function-bind",
     "title": "`Function.prototype.bind`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1325,6 +1372,7 @@
     "id": "poly-debounce",
     "title": "`debounce`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1353,6 +1401,7 @@
     "id": "poly-throttle",
     "title": "`throttle`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1381,6 +1430,7 @@
     "id": "poly-promise-all",
     "title": "`Promise.all`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1392,6 +1442,7 @@
     "id": "poly-curry-fn",
     "title": "`curry(fn)`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1403,6 +1454,7 @@
     "id": "poly-fetchwithtimeout",
     "title": "`fetchWithTimeout`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       "round-1"
@@ -1414,6 +1466,7 @@
     "id": "poly-promise-allsettled-race-any",
     "title": "`Promise.allSettled` / `race` / `any`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1425,6 +1478,7 @@
     "id": "poly-memoize",
     "title": "`memoize`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1436,6 +1490,7 @@
     "id": "poly-deepclone",
     "title": "`deepClone`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1447,6 +1502,7 @@
     "id": "poly-deep-equal",
     "title": "Deep equal",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1458,6 +1514,7 @@
     "id": "poly-flatten-array-object",
     "title": "`flatten` array / object",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1469,6 +1526,7 @@
     "id": "poly-event-emitter",
     "title": "Event emitter",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1480,6 +1538,7 @@
     "id": "poly-compose-pipe",
     "title": "`compose` / `pipe`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -1491,6 +1550,7 @@
     "id": "poly-once",
     "title": "`once`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1"
@@ -1502,6 +1562,7 @@
     "id": "poly-promise-basic",
     "title": "`Promise` (basic)",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1"
@@ -1513,6 +1574,7 @@
     "id": "poly-setinterval-using-settimeout",
     "title": "`setInterval` using `setTimeout`",
     "category": "Polyfills",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       "round-1"
@@ -1524,6 +1586,7 @@
     "id": "ts-interface-vs-type",
     "title": "interface vs type",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       
@@ -1548,6 +1611,7 @@
     "id": "ts-generics",
     "title": "Generics",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       
@@ -1576,6 +1640,7 @@
     "id": "ts-utility-types",
     "title": "Utility types",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       
@@ -1587,6 +1652,7 @@
     "id": "ts-unknown-vs-any-vs-never",
     "title": "unknown vs any vs never",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       
@@ -1598,6 +1664,7 @@
     "id": "ts-union-and-narrowing",
     "title": "Union and narrowing",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "high",
     "tags": [
       
@@ -1609,6 +1676,7 @@
     "id": "ts-typing-components",
     "title": "Typing components",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       
@@ -1620,6 +1688,7 @@
     "id": "ts-typing-api-responses",
     "title": "Typing API responses",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       
@@ -1631,6 +1700,7 @@
     "id": "ts-as-const-literal-types",
     "title": "`as const`, literal types",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "medium",
     "tags": [
       
@@ -1642,6 +1712,7 @@
     "id": "ts-mapped-and-conditional-types",
     "title": "Mapped and conditional types",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       
@@ -1653,6 +1724,7 @@
     "id": "ts-tsconfig-strict-mode",
     "title": "tsconfig strict mode",
     "category": "TypeScript",
+    "area": "JavaScript",
     "priority": "low",
     "tags": [
       
@@ -1664,6 +1736,7 @@
     "id": "svelte-how-svelte-works",
     "title": "How Svelte works",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1692,6 +1765,7 @@
     "id": "svelte-state",
     "title": "`$state`",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1720,6 +1794,7 @@
     "id": "svelte-derived",
     "title": "`$derived`",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1744,6 +1819,7 @@
     "id": "svelte-effect",
     "title": "`$effect`",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1755,6 +1831,7 @@
     "id": "svelte-props-and-bindable",
     "title": "`$props` and `$bindable`",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1766,6 +1843,7 @@
     "id": "svelte-svelte-4-reactivity",
     "title": "Svelte 4 reactivity",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1777,6 +1855,7 @@
     "id": "svelte-svelte-4-vs-5",
     "title": "Svelte 4 vs 5",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1788,6 +1867,7 @@
     "id": "svelte-stores",
     "title": "Stores",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2"
@@ -1799,6 +1879,7 @@
     "id": "svelte-template-syntax",
     "title": "Template syntax",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1810,6 +1891,7 @@
     "id": "svelte-snippets-vs-slots",
     "title": "Snippets vs slots",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1821,6 +1903,7 @@
     "id": "svelte-context-api",
     "title": "Context API",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1832,6 +1915,7 @@
     "id": "svelte-lifecycle",
     "title": "Lifecycle",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1843,6 +1927,7 @@
     "id": "svelte-bindings",
     "title": "Bindings",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1854,6 +1939,7 @@
     "id": "svelte-actions-use",
     "title": "Actions (`use:`)",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1865,6 +1951,7 @@
     "id": "svelte-scoped-styles",
     "title": "Scoped styles",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1876,6 +1963,7 @@
     "id": "svelte-events",
     "title": "Events",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2"
@@ -1887,6 +1975,7 @@
     "id": "svelte-transitions-and-animations",
     "title": "Transitions and animations",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "low",
     "tags": [
       "round-2"
@@ -1898,6 +1987,7 @@
     "id": "svelte-special-elements",
     "title": "Special elements",
     "category": "Svelte",
+    "area": "Frameworks",
     "priority": "low",
     "tags": [
       "round-2"
@@ -1909,6 +1999,7 @@
     "id": "kit-routing",
     "title": "Routing",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2",
@@ -1938,6 +2029,7 @@
     "id": "kit-data-loading",
     "title": "Data loading",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2",
@@ -1967,6 +2059,7 @@
     "id": "kit-rendering-modes",
     "title": "Rendering modes",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "high",
     "tags": [
       "round-2",
@@ -1996,6 +2089,7 @@
     "id": "kit-form-actions",
     "title": "Form actions",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2021,6 +2115,7 @@
     "id": "kit-hooks",
     "title": "Hooks",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2046,6 +2141,7 @@
     "id": "kit-errors-and-redirects",
     "title": "Errors and redirects",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2071,6 +2167,7 @@
     "id": "kit-api-routes",
     "title": "API routes",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2096,6 +2193,7 @@
     "id": "kit-env-variables",
     "title": "Env variables",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2121,6 +2219,7 @@
     "id": "kit-adapters-and-deployment",
     "title": "Adapters and deployment",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2150,6 +2249,7 @@
     "id": "kit-service-worker-in-sveltekit",
     "title": "Service worker in SvelteKit",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2179,6 +2279,7 @@
     "id": "kit-navigation",
     "title": "Navigation",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "low",
     "tags": [
       "round-2",
@@ -2204,6 +2305,7 @@
     "id": "kit-signals",
     "title": "Signals",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2233,6 +2335,7 @@
     "id": "kit-components-run-once",
     "title": "Components run once",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2258,6 +2361,7 @@
     "id": "kit-solid-vs-svelte-vs-react",
     "title": "Solid vs Svelte vs React",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -2287,6 +2391,7 @@
     "id": "kit-control-flow",
     "title": "Control flow",
     "category": "SvelteKit & SolidJS",
+    "area": "Frameworks",
     "priority": "low",
     "tags": [
       "round-2",
@@ -2309,9 +2414,528 @@
     ]
   },
   {
+    "id": "react-virtual-dom-reconciliation",
+    "title": "Virtual DOM and reconciliation",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/virtual-dom-reconciliation.md",
+    "resources": [
+      {
+        "label": "react.dev: Preserving and resetting state",
+        "url": "https://react.dev/learn/preserving-and-resetting-state"
+      },
+      {
+        "label": "react.dev: Rendering lists",
+        "url": "https://react.dev/learn/rendering-lists"
+      },
+      {
+        "label": "react.dev: Render and commit",
+        "url": "https://react.dev/learn/render-and-commit"
+      },
+      {
+        "label": "Svelte docs: What are runes?",
+        "url": "https://svelte.dev/docs/svelte/what-are-runes"
+      }
+    ]
+  },
+  {
+    "id": "react-usestate-batching",
+    "title": "useState and state updates",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/usestate-batching.md",
+    "resources": [
+      {
+        "label": "react.dev: useState",
+        "url": "https://react.dev/reference/react/useState"
+      },
+      {
+        "label": "react.dev: State as a snapshot",
+        "url": "https://react.dev/learn/state-as-a-snapshot"
+      },
+      {
+        "label": "react.dev: Queueing a series of state updates",
+        "url": "https://react.dev/learn/queueing-a-series-of-state-updates"
+      },
+      {
+        "label": "react.dev: Choosing the state structure",
+        "url": "https://react.dev/learn/choosing-the-state-structure"
+      }
+    ]
+  },
+  {
+    "id": "react-useeffect",
+    "title": "useEffect deep dive",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/useeffect.md",
+    "resources": [
+      {
+        "label": "react.dev: useEffect",
+        "url": "https://react.dev/reference/react/useEffect"
+      },
+      {
+        "label": "react.dev: You might not need an effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      },
+      {
+        "label": "react.dev: Synchronizing with effects",
+        "url": "https://react.dev/learn/synchronizing-with-effects"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      }
+    ]
+  },
+  {
+    "id": "react-memoization",
+    "title": "useMemo, useCallback and React.memo",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/memoization.md",
+    "resources": [
+      {
+        "label": "react.dev: useMemo",
+        "url": "https://react.dev/reference/react/useMemo"
+      },
+      {
+        "label": "react.dev: memo",
+        "url": "https://react.dev/reference/react/memo"
+      },
+      {
+        "label": "react.dev: useCallback",
+        "url": "https://react.dev/reference/react/useCallback"
+      },
+      {
+        "label": "react.dev: React Compiler",
+        "url": "https://react.dev/learn/react-compiler"
+      }
+    ]
+  },
+  {
+    "id": "react-custom-hooks",
+    "title": "Custom hooks",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/custom-hooks.md",
+    "resources": [
+      {
+        "label": "react.dev: Reusing logic with custom hooks",
+        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+      },
+      {
+        "label": "react.dev: Rules of Hooks",
+        "url": "https://react.dev/reference/rules/rules-of-hooks"
+      },
+      {
+        "label": "Testing Library: renderHook",
+        "url": "https://testing-library.com/docs/react-testing-library/api#renderhook"
+      },
+      {
+        "label": "MDN: setTimeout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout"
+      }
+    ]
+  },
+  {
+    "id": "react-context-state-management",
+    "title": "Context and state management",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/context-state-management.md",
+    "resources": [
+      {
+        "label": "react.dev: Passing data deeply with context",
+        "url": "https://react.dev/learn/passing-data-deeply-with-context"
+      },
+      {
+        "label": "react.dev: Scaling up with reducer and context",
+        "url": "https://react.dev/learn/scaling-up-with-reducer-and-context"
+      },
+      {
+        "label": "TanStack Query overview",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+      },
+      {
+        "label": "Redux Toolkit: Getting started",
+        "url": "https://redux-toolkit.js.org/introduction/getting-started"
+      }
+    ]
+  },
+  {
+    "id": "react-rendering-performance",
+    "title": "React performance optimisation",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/rendering-performance.md",
+    "resources": [
+      {
+        "label": "react.dev: useDeferredValue",
+        "url": "https://react.dev/reference/react/useDeferredValue"
+      },
+      {
+        "label": "react.dev: useTransition",
+        "url": "https://react.dev/reference/react/useTransition"
+      },
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "web.dev: Virtualize large lists with react-window",
+        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
+      }
+    ]
+  },
+  {
+    "id": "react-useref-forwardref",
+    "title": "useRef and refs",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/useref-forwardref.md",
+    "resources": [
+      {
+        "label": "react.dev: useRef",
+        "url": "https://react.dev/reference/react/useRef"
+      },
+      {
+        "label": "react.dev: Manipulating the DOM with refs",
+        "url": "https://react.dev/learn/manipulating-the-dom-with-refs"
+      },
+      {
+        "label": "react.dev: useImperativeHandle",
+        "url": "https://react.dev/reference/react/useImperativeHandle"
+      },
+      {
+        "label": "react.dev: React 19 release",
+        "url": "https://react.dev/blog/2024/12/05/react-19"
+      }
+    ]
+  },
+  {
+    "id": "react-forms",
+    "title": "Controlled vs uncontrolled forms",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/forms.md",
+    "resources": [
+      {
+        "label": "react.dev: input",
+        "url": "https://react.dev/reference/react-dom/components/input"
+      },
+      {
+        "label": "react.dev: useActionState",
+        "url": "https://react.dev/reference/react/useActionState"
+      },
+      {
+        "label": "react.dev: useFormStatus",
+        "url": "https://react.dev/reference/react-dom/hooks/useFormStatus"
+      },
+      {
+        "label": "React Hook Form: Get started",
+        "url": "https://react-hook-form.com/get-started"
+      }
+    ]
+  },
+  {
+    "id": "react-error-boundaries",
+    "title": "Error boundaries",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/error-boundaries.md",
+    "resources": [
+      {
+        "label": "react.dev: Catching rendering errors with an error boundary",
+        "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+      },
+      {
+        "label": "react-error-boundary on GitHub",
+        "url": "https://github.com/bvaughn/react-error-boundary"
+      },
+      {
+        "label": "Sentry React docs",
+        "url": "https://docs.sentry.io/platforms/javascript/guides/react/"
+      },
+      {
+        "label": "svelte.dev: svelte:boundary",
+        "url": "https://svelte.dev/docs/svelte/svelte-boundary"
+      }
+    ]
+  },
+  {
+    "id": "react-suspense-lazy",
+    "title": "Suspense, lazy loading and code splitting",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/suspense-lazy.md",
+    "resources": [
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "react.dev: Suspense",
+        "url": "https://react.dev/reference/react/Suspense"
+      },
+      {
+        "label": "react.dev: use",
+        "url": "https://react.dev/reference/react/use"
+      },
+      {
+        "label": "web.dev: Code splitting with React.lazy and Suspense",
+        "url": "https://web.dev/articles/code-splitting-suspense"
+      }
+    ]
+  },
+  {
+    "id": "react-18-19-features",
+    "title": "React 18 and 19 features",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/18-19-features.md",
+    "resources": [
+      {
+        "label": "react.dev: React v18.0",
+        "url": "https://react.dev/blog/2022/03/29/react-v18"
+      },
+      {
+        "label": "react.dev: React v19",
+        "url": "https://react.dev/blog/2024/12/05/react-19"
+      },
+      {
+        "label": "react.dev: useTransition",
+        "url": "https://react.dev/reference/react/useTransition"
+      },
+      {
+        "label": "react.dev: React Compiler",
+        "url": "https://react.dev/learn/react-compiler"
+      }
+    ]
+  },
+  {
+    "id": "react-server-components-nextjs",
+    "title": "Server Components and Next.js basics",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/server-components-nextjs.md",
+    "resources": [
+      {
+        "label": "react.dev: Server Components",
+        "url": "https://react.dev/reference/rsc/server-components"
+      },
+      {
+        "label": "react.dev: 'use client'",
+        "url": "https://react.dev/reference/rsc/use-client"
+      },
+      {
+        "label": "Next.js docs: App Router",
+        "url": "https://nextjs.org/docs/app"
+      },
+      {
+        "label": "svelte.dev: Loading data",
+        "url": "https://svelte.dev/docs/kit/load"
+      }
+    ]
+  },
+  {
+    "id": "react-data-fetching",
+    "title": "Data fetching in React",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/data-fetching.md",
+    "resources": [
+      {
+        "label": "react.dev: Fetching data with effects",
+        "url": "https://react.dev/learn/synchronizing-with-effects#fetching-data"
+      },
+      {
+        "label": "TanStack Query: Overview",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+      },
+      {
+        "label": "SWR docs",
+        "url": "https://swr.vercel.app/"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      }
+    ]
+  },
+  {
+    "id": "react-testing",
+    "title": "Testing React components",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/testing.md",
+    "resources": [
+      {
+        "label": "Testing Library: React intro",
+        "url": "https://testing-library.com/docs/react-testing-library/intro"
+      },
+      {
+        "label": "Testing Library: Query priority",
+        "url": "https://testing-library.com/docs/queries/about#priority"
+      },
+      {
+        "label": "Testing Library: user-event",
+        "url": "https://testing-library.com/docs/user-event/intro"
+      },
+      {
+        "label": "MSW docs",
+        "url": "https://mswjs.io/docs/"
+      }
+    ]
+  },
+  {
+    "id": "react-vs-svelte",
+    "title": "React vs Svelte",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/vs-svelte.md",
+    "resources": [
+      {
+        "label": "react.dev: Thinking in React",
+        "url": "https://react.dev/learn/thinking-in-react"
+      },
+      {
+        "label": "react.dev: You Might Not Need an Effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      },
+      {
+        "label": "svelte.dev: What are runes?",
+        "url": "https://svelte.dev/docs/svelte/what-are-runes"
+      },
+      {
+        "label": "svelte.dev: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
+    ]
+  },
+  {
+    "id": "react-portals-hoc-render-props",
+    "title": "Portals, HOCs and render props",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "low",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/portals-hoc-render-props.md",
+    "resources": [
+      {
+        "label": "react.dev: createPortal",
+        "url": "https://react.dev/reference/react-dom/createPortal"
+      },
+      {
+        "label": "react.dev: Reusing logic with custom hooks",
+        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+      },
+      {
+        "label": "legacy.reactjs.org: Higher-order components",
+        "url": "https://legacy.reactjs.org/docs/higher-order-components.html"
+      },
+      {
+        "label": "legacy.reactjs.org: Render props",
+        "url": "https://legacy.reactjs.org/docs/render-props.html"
+      }
+    ]
+  },
+  {
+    "id": "react-component-patterns",
+    "title": "Component design patterns",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "low",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/component-patterns.md",
+    "resources": [
+      {
+        "label": "react.dev: Passing data deeply with context",
+        "url": "https://react.dev/learn/passing-data-deeply-with-context"
+      },
+      {
+        "label": "react.dev: Sharing state between components",
+        "url": "https://react.dev/learn/sharing-state-between-components"
+      },
+      {
+        "label": "react.dev: Passing props to a component",
+        "url": "https://react.dev/learn/passing-props-to-a-component"
+      }
+    ]
+  },
+  {
     "id": "browser-rendering-pipeline",
     "title": "Rendering pipeline",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2340,6 +2964,7 @@
     "id": "browser-reflow-vs-repaint",
     "title": "Reflow vs repaint",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2368,6 +2993,7 @@
     "id": "browser-layout-thrashing",
     "title": "Layout thrashing",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2396,6 +3022,7 @@
     "id": "browser-garbage-collection",
     "title": "Garbage collection",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2424,6 +3051,7 @@
     "id": "browser-memory-leaks",
     "title": "Memory leaks",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2452,6 +3080,7 @@
     "id": "browser-event-propagation",
     "title": "Event propagation",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2480,6 +3109,7 @@
     "id": "browser-event-delegation",
     "title": "Event delegation",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2508,6 +3138,7 @@
     "id": "browser-what-happens-when-you-type-a-url",
     "title": "What happens when you type a URL",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-1"
@@ -2536,6 +3167,7 @@
     "id": "browser-script-loading",
     "title": "Script loading",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2564,6 +3196,7 @@
     "id": "browser-dom-manipulation",
     "title": "DOM manipulation",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2592,6 +3225,7 @@
     "id": "browser-observers",
     "title": "Observers",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2620,6 +3254,7 @@
     "id": "browser-passive-event-listeners",
     "title": "Passive event listeners",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2644,6 +3279,7 @@
     "id": "browser-requestanimationframe-requestidlecallback",
     "title": "requestAnimationFrame / requestIdleCallback",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2672,6 +3308,7 @@
     "id": "browser-browser-storage-overview",
     "title": "Browser storage overview",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2700,6 +3337,7 @@
     "id": "browser-same-origin-policy",
     "title": "Same-origin policy",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-1"
@@ -2728,6 +3366,7 @@
     "id": "browser-js-engine-basics",
     "title": "JS engine basics",
     "category": "Browser & DOM",
+    "area": "Web platform",
     "priority": "low",
     "tags": [
       "round-1"
@@ -2752,6 +3391,7 @@
     "id": "perf-how-to-approach-a-slow-app",
     "title": "How to approach a slow app",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2780,6 +3420,7 @@
     "id": "perf-core-web-vitals",
     "title": "Core Web Vitals",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2808,6 +3449,7 @@
     "id": "perf-bundle-optimisation",
     "title": "Bundle optimisation",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2836,6 +3478,7 @@
     "id": "perf-rendering-performance",
     "title": "Rendering performance",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2864,6 +3507,7 @@
     "id": "perf-large-lists-and-tables",
     "title": "Large lists and tables",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2892,6 +3536,7 @@
     "id": "perf-real-time-data",
     "title": "Real-time data",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "round-3"
@@ -2920,6 +3565,7 @@
     "id": "perf-images-and-fonts",
     "title": "Images and fonts",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -2948,6 +3594,7 @@
     "id": "perf-caching",
     "title": "Caching",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -2976,6 +3623,7 @@
     "id": "perf-network-optimisation",
     "title": "Network optimisation",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -3004,6 +3652,7 @@
     "id": "perf-main-thread-work",
     "title": "Main thread work",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -3032,6 +3681,7 @@
     "id": "perf-css-performance",
     "title": "CSS performance",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -3060,6 +3710,7 @@
     "id": "perf-low-end-devices",
     "title": "Low-end devices",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -3088,6 +3739,7 @@
     "id": "perf-monitoring-performance-in-production",
     "title": "Monitoring performance in production",
     "category": "Performance",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -3116,6 +3768,7 @@
     "id": "pwa-what-is-a-pwa",
     "title": "What is a PWA",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3144,6 +3797,7 @@
     "id": "pwa-service-worker-lifecycle",
     "title": "Service worker lifecycle",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3172,6 +3826,7 @@
     "id": "pwa-caching-strategies",
     "title": "Caching strategies",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3200,6 +3855,7 @@
     "id": "pwa-workbox",
     "title": "Workbox",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3228,6 +3884,7 @@
     "id": "pwa-offline-first-architecture",
     "title": "Offline-first architecture",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3256,6 +3913,7 @@
     "id": "pwa-cache-versioning",
     "title": "Cache versioning",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3284,6 +3942,7 @@
     "id": "pwa-web-workers",
     "title": "Web Workers",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3312,6 +3971,7 @@
     "id": "pwa-comlink",
     "title": "Comlink",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3340,6 +4000,7 @@
     "id": "pwa-service-worker-vs-web-worker",
     "title": "Service Worker vs Web Worker",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3364,6 +4025,7 @@
     "id": "pwa-indexeddb",
     "title": "IndexedDB",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3392,6 +4054,7 @@
     "id": "pwa-cache-api",
     "title": "Cache API",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3420,6 +4083,7 @@
     "id": "pwa-storage-limits-and-eviction",
     "title": "Storage limits and eviction",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3448,6 +4112,7 @@
     "id": "pwa-push-notifications",
     "title": "Push notifications",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3476,6 +4141,7 @@
     "id": "pwa-geolocation-api",
     "title": "Geolocation API",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "low",
     "tags": [
       "jd"
@@ -3500,6 +4166,7 @@
     "id": "pwa-background-sync",
     "title": "Background sync",
     "category": "PWA & Workers",
+    "area": "Web platform",
     "priority": "low",
     "tags": [
       "jd"
@@ -3524,6 +4191,7 @@
     "id": "mobile-what-a-webview-is",
     "title": "What a WebView is",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3535,6 +4203,7 @@
     "id": "mobile-native-web-communication",
     "title": "Native-web communication",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3546,6 +4215,7 @@
     "id": "mobile-ios-vs-android-differences",
     "title": "iOS vs Android differences",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3557,6 +4227,7 @@
     "id": "mobile-memory-limits",
     "title": "Memory limits",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       "jd"
@@ -3568,6 +4239,7 @@
     "id": "mobile-touch-interactions",
     "title": "Touch interactions",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3579,6 +4251,7 @@
     "id": "mobile-viewport-and-keyboard",
     "title": "Viewport and keyboard",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3590,6 +4263,7 @@
     "id": "mobile-safe-areas",
     "title": "Safe areas",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3601,6 +4275,7 @@
     "id": "mobile-scrolling",
     "title": "Scrolling",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3612,6 +4287,7 @@
     "id": "mobile-network-on-mobile",
     "title": "Network on mobile",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3623,6 +4299,7 @@
     "id": "mobile-debugging-on-real-devices",
     "title": "Debugging on real devices",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3634,6 +4311,7 @@
     "id": "mobile-performance-on-low-end-android",
     "title": "Performance on low-end Android",
     "category": "Mobile web & WebViews",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       "jd"
@@ -3642,365 +4320,10 @@
     "resources": []
   },
   {
-    "id": "css-box-model",
-    "title": "Box model",
-    "category": "CSS & Tailwind",
-    "priority": "high",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/box-model.md",
-    "resources": [
-      {
-        "label": "MDN: The box model",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model"
-      },
-      {
-        "label": "MDN: box-sizing",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
-      },
-      {
-        "label": "MDN: Mastering margin collapsing",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing"
-      },
-      {
-        "label": "MDN: Block formatting context",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context"
-      }
-    ]
-  },
-  {
-    "id": "css-flexbox-vs-grid",
-    "title": "Flexbox vs Grid",
-    "category": "CSS & Tailwind",
-    "priority": "high",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/flexbox-vs-grid.md",
-    "resources": [
-      {
-        "label": "web.dev Learn CSS: Flexbox",
-        "url": "https://web.dev/learn/css/flexbox"
-      },
-      {
-        "label": "web.dev Learn CSS: Grid",
-        "url": "https://web.dev/learn/css/grid"
-      },
-      {
-        "label": "MDN: grid-template-areas",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas"
-      },
-      {
-        "label": "MDN: Relationship of grid to other layout methods",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods"
-      }
-    ]
-  },
-  {
-    "id": "css-positioning",
-    "title": "Positioning",
-    "category": "CSS & Tailwind",
-    "priority": "high",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/positioning.md",
-    "resources": [
-      {
-        "label": "MDN: position",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
-      },
-      {
-        "label": "MDN: Positioning guide",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning"
-      },
-      {
-        "label": "MDN: Containing block",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block"
-      },
-      {
-        "label": "MDN: inset",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset"
-      }
-    ]
-  },
-  {
-    "id": "css-responsive-design",
-    "title": "Responsive design",
-    "category": "CSS & Tailwind",
-    "priority": "high",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/responsive-design.md",
-    "resources": [
-      {
-        "label": "MDN: Responsive design",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
-      },
-      {
-        "label": "MDN: Using media queries",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries"
-      },
-      {
-        "label": "MDN: clamp()",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp"
-      },
-      {
-        "label": "MDN: CSS length units",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length"
-      }
-    ]
-  },
-  {
-    "id": "css-specificity-and-cascade",
-    "title": "Specificity and cascade",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/specificity-and-cascade.md",
-    "resources": [
-      {
-        "label": "MDN: Specificity",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"
-      },
-      {
-        "label": "MDN: Handling conflicts",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts"
-      },
-      {
-        "label": "MDN: @layer",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer"
-      },
-      {
-        "label": "web.dev Learn CSS: The cascade",
-        "url": "https://web.dev/learn/css/the-cascade"
-      }
-    ]
-  },
-  {
-    "id": "css-stacking-context",
-    "title": "Stacking context",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/stacking-context.md",
-    "resources": [
-      {
-        "label": "MDN: Stacking context",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context"
-      },
-      {
-        "label": "MDN: z-index",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"
-      },
-      {
-        "label": "MDN: isolation",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/isolation"
-      },
-      {
-        "label": "MDN: Top layer",
-        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Top_layer"
-      }
-    ]
-  },
-  {
-    "id": "css-centering",
-    "title": "Centering",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/centering.md",
-    "resources": [
-      {
-        "label": "MDN: Center an element",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element"
-      },
-      {
-        "label": "web.dev: Centering in CSS",
-        "url": "https://web.dev/articles/centering-in-css"
-      },
-      {
-        "label": "MDN: place-items",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items"
-      }
-    ]
-  },
-  {
-    "id": "css-css-performance",
-    "title": "CSS performance",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/css-performance.md",
-    "resources": [
-      {
-        "label": "web.dev: Stick to compositor-only properties",
-        "url": "https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count"
-      },
-      {
-        "label": "web.dev: Extract critical CSS",
-        "url": "https://web.dev/articles/extract-critical-css"
-      },
-      {
-        "label": "MDN: contain",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"
-      },
-      {
-        "label": "web.dev: content-visibility",
-        "url": "https://web.dev/articles/content-visibility"
-      }
-    ]
-  },
-  {
-    "id": "css-tailwind",
-    "title": "Tailwind",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/tailwind.md",
-    "resources": [
-      {
-        "label": "Tailwind: Theme variables",
-        "url": "https://tailwindcss.com/docs/theme"
-      },
-      {
-        "label": "Tailwind: Dark mode",
-        "url": "https://tailwindcss.com/docs/dark-mode"
-      },
-      {
-        "label": "Tailwind: Detecting classes in source files",
-        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
-      },
-      {
-        "label": "Tailwind: Functions and directives",
-        "url": "https://tailwindcss.com/docs/functions-and-directives"
-      }
-    ]
-  },
-  {
-    "id": "css-postcss",
-    "title": "PostCSS",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/postcss.md",
-    "resources": [
-      {
-        "label": "PostCSS",
-        "url": "https://postcss.org/"
-      },
-      {
-        "label": "Autoprefixer",
-        "url": "https://github.com/postcss/autoprefixer"
-      },
-      {
-        "label": "Tailwind: Using PostCSS",
-        "url": "https://tailwindcss.com/docs/installation/using-postcss"
-      }
-    ]
-  },
-  {
-    "id": "css-css-variables",
-    "title": "CSS variables",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/css-variables.md",
-    "resources": [
-      {
-        "label": "MDN: Using CSS custom properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"
-      },
-      {
-        "label": "MDN: prefers-color-scheme",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
-      },
-      {
-        "label": "web.dev: prefers-color-scheme",
-        "url": "https://web.dev/articles/prefers-color-scheme"
-      },
-      {
-        "label": "Svelte docs: style directive",
-        "url": "https://svelte.dev/docs/svelte/style"
-      }
-    ]
-  },
-  {
-    "id": "css-accessibility-in-css",
-    "title": "Accessibility in CSS",
-    "category": "CSS & Tailwind",
-    "priority": "medium",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/accessibility-in-css.md",
-    "resources": [
-      {
-        "label": "MDN: :focus-visible",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"
-      },
-      {
-        "label": "MDN: prefers-reduced-motion",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
-      },
-      {
-        "label": "web.dev: Color and contrast accessibility",
-        "url": "https://web.dev/articles/color-and-contrast-accessibility"
-      },
-      {
-        "label": "web.dev: Learn Accessibility - Focus",
-        "url": "https://web.dev/learn/accessibility/focus"
-      }
-    ]
-  },
-  {
-    "id": "css-modern-css",
-    "title": "Modern CSS",
-    "category": "CSS & Tailwind",
-    "priority": "low",
-    "tags": [
-      "round-2"
-    ],
-    "note": "notes/css/modern-css.md",
-    "resources": [
-      {
-        "label": "MDN: Container queries",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries"
-      },
-      {
-        "label": "MDN: :has()",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has"
-      },
-      {
-        "label": "MDN: CSS nesting",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting"
-      },
-      {
-        "label": "MDN: Logical properties",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values"
-      }
-    ]
-  },
-  {
     "id": "sec-xss",
     "title": "XSS",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       
@@ -4029,6 +4352,7 @@
     "id": "sec-csrf",
     "title": "CSRF",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       
@@ -4057,6 +4381,7 @@
     "id": "sec-auth-token-storage",
     "title": "Auth token storage",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       
@@ -4085,6 +4410,7 @@
     "id": "sec-cors",
     "title": "CORS",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       
@@ -4113,6 +4439,7 @@
     "id": "sec-http-basics",
     "title": "HTTP basics",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       
@@ -4141,6 +4468,7 @@
     "id": "sec-rest-vs-websockets-vs-sse-vs-polling",
     "title": "REST vs WebSockets vs SSE vs polling",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "high",
     "tags": [
       
@@ -4169,6 +4497,7 @@
     "id": "sec-websocket-handling",
     "title": "WebSocket handling",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       
@@ -4197,6 +4526,7 @@
     "id": "sec-clickjacking",
     "title": "Clickjacking",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       
@@ -4221,6 +4551,7 @@
     "id": "sec-sensitive-data-in-frontend",
     "title": "Sensitive data in frontend",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       
@@ -4249,6 +4580,7 @@
     "id": "sec-third-party-scripts",
     "title": "Third-party scripts",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "medium",
     "tags": [
       
@@ -4277,6 +4609,7 @@
     "id": "sec-https-and-tls",
     "title": "HTTPS and TLS",
     "category": "Security & networking",
+    "area": "Web platform",
     "priority": "low",
     "tags": [
       
@@ -4302,164 +4635,379 @@
     ]
   },
   {
-    "id": "test-testing-pyramid",
-    "title": "Testing pyramid",
-    "category": "Testing & CI/CD",
+    "id": "css-box-model",
+    "title": "Box model",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "high",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": "notes/testing/testing-pyramid.md",
+    "note": "notes/css/box-model.md",
     "resources": [
       {
-        "label": "Martin Fowler: The Practical Test Pyramid",
-        "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+        "label": "MDN: The box model",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model"
       },
       {
-        "label": "web.dev: Testing strategies",
-        "url": "https://web.dev/articles/ta-strategies"
+        "label": "MDN: box-sizing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
       },
       {
-        "label": "web.dev: Types of tests",
-        "url": "https://web.dev/articles/ta-types"
+        "label": "MDN: Mastering margin collapsing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing"
       },
       {
-        "label": "Testing trophy by Kent C. Dodds",
-        "url": "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications"
+        "label": "MDN: Block formatting context",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context"
       }
     ]
   },
   {
-    "id": "test-vitest",
-    "title": "Vitest",
-    "category": "Testing & CI/CD",
+    "id": "css-flexbox-vs-grid",
+    "title": "Flexbox vs Grid",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "high",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": "notes/testing/vitest.md",
+    "note": "notes/css/flexbox-vs-grid.md",
     "resources": [
       {
-        "label": "Vitest: Getting started",
-        "url": "https://vitest.dev/guide/"
+        "label": "web.dev Learn CSS: Flexbox",
+        "url": "https://web.dev/learn/css/flexbox"
       },
       {
-        "label": "Vitest: Mocking",
-        "url": "https://vitest.dev/guide/mocking"
+        "label": "web.dev Learn CSS: Grid",
+        "url": "https://web.dev/learn/css/grid"
       },
       {
-        "label": "Vitest: Mocking timers",
-        "url": "https://vitest.dev/guide/mocking/timers"
+        "label": "MDN: grid-template-areas",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas"
       },
       {
-        "label": "Vitest: vi API",
-        "url": "https://vitest.dev/api/vi"
+        "label": "MDN: Relationship of grid to other layout methods",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods"
       }
     ]
   },
   {
-    "id": "test-component-testing",
-    "title": "Component testing",
-    "category": "Testing & CI/CD",
+    "id": "css-positioning",
+    "title": "Positioning",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "high",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/positioning.md",
+    "resources": [
+      {
+        "label": "MDN: position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
+      },
+      {
+        "label": "MDN: Positioning guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning"
+      },
+      {
+        "label": "MDN: Containing block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block"
+      },
+      {
+        "label": "MDN: inset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset"
+      }
+    ]
   },
   {
-    "id": "test-e2e-testing",
-    "title": "E2E testing",
-    "category": "Testing & CI/CD",
-    "priority": "medium",
-    "tags": [
-      "round-3"
-    ],
-    "note": null,
-    "resources": []
-  },
-  {
-    "id": "test-what-to-test-in-a-trading-or-payment-flow",
-    "title": "What to test in a trading or payment flow",
-    "category": "Testing & CI/CD",
+    "id": "css-responsive-design",
+    "title": "Responsive design",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "high",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/responsive-design.md",
+    "resources": [
+      {
+        "label": "MDN: Responsive design",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+      },
+      {
+        "label": "MDN: Using media queries",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries"
+      },
+      {
+        "label": "MDN: clamp()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp"
+      },
+      {
+        "label": "MDN: CSS length units",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length"
+      }
+    ]
   },
   {
-    "id": "test-eslint-and-prettier",
-    "title": "ESLint and Prettier",
-    "category": "Testing & CI/CD",
+    "id": "css-specificity-and-cascade",
+    "title": "Specificity and cascade",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "medium",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/specificity-and-cascade.md",
+    "resources": [
+      {
+        "label": "MDN: Specificity",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"
+      },
+      {
+        "label": "MDN: Handling conflicts",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts"
+      },
+      {
+        "label": "MDN: @layer",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer"
+      },
+      {
+        "label": "web.dev Learn CSS: The cascade",
+        "url": "https://web.dev/learn/css/the-cascade"
+      }
+    ]
   },
   {
-    "id": "test-husky-and-lint-staged",
-    "title": "Husky and lint-staged",
-    "category": "Testing & CI/CD",
+    "id": "css-stacking-context",
+    "title": "Stacking context",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "medium",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/stacking-context.md",
+    "resources": [
+      {
+        "label": "MDN: Stacking context",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context"
+      },
+      {
+        "label": "MDN: z-index",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"
+      },
+      {
+        "label": "MDN: isolation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/isolation"
+      },
+      {
+        "label": "MDN: Top layer",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Top_layer"
+      }
+    ]
   },
   {
-    "id": "test-ci-cd-pipeline",
-    "title": "CI/CD pipeline",
-    "category": "Testing & CI/CD",
-    "priority": "high",
-    "tags": [
-      "round-3"
-    ],
-    "note": null,
-    "resources": []
-  },
-  {
-    "id": "test-build-tools",
-    "title": "Build tools",
-    "category": "Testing & CI/CD",
+    "id": "css-centering",
+    "title": "Centering",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "medium",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/centering.md",
+    "resources": [
+      {
+        "label": "MDN: Center an element",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element"
+      },
+      {
+        "label": "web.dev: Centering in CSS",
+        "url": "https://web.dev/articles/centering-in-css"
+      },
+      {
+        "label": "MDN: place-items",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items"
+      }
+    ]
   },
   {
-    "id": "test-feature-flags",
-    "title": "Feature flags",
-    "category": "Testing & CI/CD",
+    "id": "css-css-performance",
+    "title": "CSS performance",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "medium",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/css-performance.md",
+    "resources": [
+      {
+        "label": "web.dev: Stick to compositor-only properties",
+        "url": "https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count"
+      },
+      {
+        "label": "web.dev: Extract critical CSS",
+        "url": "https://web.dev/articles/extract-critical-css"
+      },
+      {
+        "label": "MDN: contain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"
+      },
+      {
+        "label": "web.dev: content-visibility",
+        "url": "https://web.dev/articles/content-visibility"
+      }
+    ]
   },
   {
-    "id": "test-12-factor-app",
-    "title": "12-factor app",
-    "category": "Testing & CI/CD",
+    "id": "css-tailwind",
+    "title": "Tailwind",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/tailwind.md",
+    "resources": [
+      {
+        "label": "Tailwind: Theme variables",
+        "url": "https://tailwindcss.com/docs/theme"
+      },
+      {
+        "label": "Tailwind: Dark mode",
+        "url": "https://tailwindcss.com/docs/dark-mode"
+      },
+      {
+        "label": "Tailwind: Detecting classes in source files",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      },
+      {
+        "label": "Tailwind: Functions and directives",
+        "url": "https://tailwindcss.com/docs/functions-and-directives"
+      }
+    ]
+  },
+  {
+    "id": "css-postcss",
+    "title": "PostCSS",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/postcss.md",
+    "resources": [
+      {
+        "label": "PostCSS",
+        "url": "https://postcss.org/"
+      },
+      {
+        "label": "Autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer"
+      },
+      {
+        "label": "Tailwind: Using PostCSS",
+        "url": "https://tailwindcss.com/docs/installation/using-postcss"
+      }
+    ]
+  },
+  {
+    "id": "css-css-variables",
+    "title": "CSS variables",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/css-variables.md",
+    "resources": [
+      {
+        "label": "MDN: Using CSS custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"
+      },
+      {
+        "label": "MDN: prefers-color-scheme",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
+      },
+      {
+        "label": "web.dev: prefers-color-scheme",
+        "url": "https://web.dev/articles/prefers-color-scheme"
+      },
+      {
+        "label": "Svelte docs: style directive",
+        "url": "https://svelte.dev/docs/svelte/style"
+      }
+    ]
+  },
+  {
+    "id": "css-accessibility-in-css",
+    "title": "Accessibility in CSS",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/accessibility-in-css.md",
+    "resources": [
+      {
+        "label": "MDN: :focus-visible",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"
+      },
+      {
+        "label": "MDN: prefers-reduced-motion",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
+      },
+      {
+        "label": "web.dev: Color and contrast accessibility",
+        "url": "https://web.dev/articles/color-and-contrast-accessibility"
+      },
+      {
+        "label": "web.dev: Learn Accessibility - Focus",
+        "url": "https://web.dev/learn/accessibility/focus"
+      }
+    ]
+  },
+  {
+    "id": "css-modern-css",
+    "title": "Modern CSS",
+    "category": "CSS & Tailwind",
+    "area": "CSS & UI",
     "priority": "low",
     "tags": [
-      "round-3"
+      "round-2"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/css/modern-css.md",
+    "resources": [
+      {
+        "label": "MDN: Container queries",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries"
+      },
+      {
+        "label": "MDN: :has()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has"
+      },
+      {
+        "label": "MDN: CSS nesting",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting"
+      },
+      {
+        "label": "MDN: Logical properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values"
+      }
+    ]
   },
   {
     "id": "mc-login-form",
     "title": "Login form",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4489,6 +5037,7 @@
     "id": "mc-autocomplete-search",
     "title": "Autocomplete / search",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4518,6 +5067,7 @@
     "id": "mc-stock-watchlist",
     "title": "Stock watchlist",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4547,6 +5097,7 @@
     "id": "mc-otp-input",
     "title": "OTP input",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4576,6 +5127,7 @@
     "id": "mc-infinite-scroll-list",
     "title": "Infinite scroll list",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4588,6 +5140,7 @@
     "id": "mc-tabs-accordion-modal",
     "title": "Tabs / accordion / modal",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4600,6 +5153,7 @@
     "id": "mc-toast-notification-system",
     "title": "Toast notification system",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4612,6 +5166,7 @@
     "id": "mc-pagination-data-table",
     "title": "Pagination / data table",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4624,6 +5179,7 @@
     "id": "mc-order-form-buy-sell",
     "title": "Order form (buy/sell)",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4636,6 +5192,7 @@
     "id": "mc-progress-bar-countdown-timer",
     "title": "Progress bar / countdown timer",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "low",
     "tags": [
       "round-2",
@@ -4648,6 +5205,7 @@
     "id": "mc-trading-dashboard-with-live-prices",
     "title": "Trading dashboard with live prices",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4660,6 +5218,7 @@
     "id": "mc-offline-capable-pwa-for-investing-app",
     "title": "Offline-capable PWA for investing app",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4672,6 +5231,7 @@
     "id": "mc-shared-component-library",
     "title": "Shared component library",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "high",
     "tags": [
       "round-2",
@@ -4684,6 +5244,7 @@
     "id": "mc-web-app-inside-native-app-webview",
     "title": "Web app inside native app (WebView)",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4696,6 +5257,7 @@
     "id": "mc-notification-system",
     "title": "Notification system",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4708,6 +5270,7 @@
     "id": "mc-large-sveltekit-app-architecture",
     "title": "Large SvelteKit app architecture",
     "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
     "priority": "medium",
     "tags": [
       "round-2",
@@ -4717,9 +5280,176 @@
     "resources": []
   },
   {
+    "id": "test-testing-pyramid",
+    "title": "Testing pyramid",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/testing/testing-pyramid.md",
+    "resources": [
+      {
+        "label": "Martin Fowler: The Practical Test Pyramid",
+        "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+      },
+      {
+        "label": "web.dev: Testing strategies",
+        "url": "https://web.dev/articles/ta-strategies"
+      },
+      {
+        "label": "web.dev: Types of tests",
+        "url": "https://web.dev/articles/ta-types"
+      },
+      {
+        "label": "Testing trophy by Kent C. Dodds",
+        "url": "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications"
+      }
+    ]
+  },
+  {
+    "id": "test-vitest",
+    "title": "Vitest",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/testing/vitest.md",
+    "resources": [
+      {
+        "label": "Vitest: Getting started",
+        "url": "https://vitest.dev/guide/"
+      },
+      {
+        "label": "Vitest: Mocking",
+        "url": "https://vitest.dev/guide/mocking"
+      },
+      {
+        "label": "Vitest: Mocking timers",
+        "url": "https://vitest.dev/guide/mocking/timers"
+      },
+      {
+        "label": "Vitest: vi API",
+        "url": "https://vitest.dev/api/vi"
+      }
+    ]
+  },
+  {
+    "id": "test-component-testing",
+    "title": "Component testing",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-e2e-testing",
+    "title": "E2E testing",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-what-to-test-in-a-trading-or-payment-flow",
+    "title": "What to test in a trading or payment flow",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-eslint-and-prettier",
+    "title": "ESLint and Prettier",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-husky-and-lint-staged",
+    "title": "Husky and lint-staged",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-ci-cd-pipeline",
+    "title": "CI/CD pipeline",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-build-tools",
+    "title": "Build tools",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-feature-flags",
+    "title": "Feature flags",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-12-factor-app",
+    "title": "12-factor app",
+    "category": "Testing & CI/CD",
+    "area": "Testing & tooling",
+    "priority": "low",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
     "id": "dsa-hash-map-set",
     "title": "Hash map / Set",
     "category": "DSA",
+    "area": "DSA",
     "priority": "high",
     "tags": [
       "jd"
@@ -4731,6 +5461,7 @@
     "id": "dsa-two-pointers",
     "title": "Two pointers",
     "category": "DSA",
+    "area": "DSA",
     "priority": "high",
     "tags": [
       "jd"
@@ -4742,6 +5473,7 @@
     "id": "dsa-sliding-window",
     "title": "Sliding window",
     "category": "DSA",
+    "area": "DSA",
     "priority": "medium",
     "tags": [
       "jd"
@@ -4753,6 +5485,7 @@
     "id": "dsa-stack",
     "title": "Stack",
     "category": "DSA",
+    "area": "DSA",
     "priority": "medium",
     "tags": [
       "jd"
@@ -4764,6 +5497,7 @@
     "id": "dsa-strings-and-arrays",
     "title": "Strings and arrays",
     "category": "DSA",
+    "area": "DSA",
     "priority": "medium",
     "tags": [
       "jd"
@@ -4775,6 +5509,7 @@
     "id": "dsa-sorting-and-searching",
     "title": "Sorting and searching",
     "category": "DSA",
+    "area": "DSA",
     "priority": "medium",
     "tags": [
       "jd"
@@ -4786,6 +5521,7 @@
     "id": "dsa-recursion-and-trees-basic",
     "title": "Recursion and trees (basic)",
     "category": "DSA",
+    "area": "DSA",
     "priority": "low",
     "tags": [
       "jd"
@@ -4797,6 +5533,7 @@
     "id": "dsa-big-o",
     "title": "Big-O",
     "category": "DSA",
+    "area": "DSA",
     "priority": "high",
     "tags": [
       "jd"
@@ -4808,6 +5545,7 @@
     "id": "hm-project-deep-dive",
     "title": "Project deep dive",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4832,6 +5570,7 @@
     "id": "hm-payments-work",
     "title": "Payments work: failures, timeouts, double submits",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4860,6 +5599,7 @@
     "id": "hm-performance-win",
     "title": "Performance work: measuring a render-time win",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4888,6 +5628,7 @@
     "id": "hm-design-system-shared-components",
     "title": "Design system / shared components",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4916,6 +5657,7 @@
     "id": "hm-svelte-in-production",
     "title": "Svelte in production",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4944,6 +5686,7 @@
     "id": "hm-sdlc",
     "title": "SDLC",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -4972,6 +5715,7 @@
     "id": "hm-observability",
     "title": "Observability",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -5000,6 +5744,7 @@
     "id": "hm-incident-and-rca",
     "title": "Incident and RCA",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "high",
     "tags": [
       "round-3"
@@ -5024,6 +5769,7 @@
     "id": "hm-code-review",
     "title": "Code review",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5052,6 +5798,7 @@
     "id": "hm-mentoring",
     "title": "Mentoring",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5076,6 +5823,7 @@
     "id": "hm-working-with-product-design-qa",
     "title": "Working with Product, Design, QA",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5100,6 +5848,7 @@
     "id": "hm-ownership-and-velocity",
     "title": "Ownership and velocity",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5124,6 +5873,7 @@
     "id": "hm-metrics-driven-mindset",
     "title": "Metrics-driven mindset",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5148,6 +5898,7 @@
     "id": "hm-behavioural",
     "title": "Behavioural",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5172,6 +5923,7 @@
     "id": "hm-your-questions-for-them",
     "title": "Your questions for them",
     "category": "Hiring manager",
+    "area": "Behavioural",
     "priority": "medium",
     "tags": [
       "round-3"
@@ -5193,506 +5945,6 @@
       {
         "label": "web.dev: Web Vitals",
         "url": "https://web.dev/articles/vitals"
-      }
-    ]
-  },
-  {
-    "id": "react-virtual-dom-reconciliation",
-    "title": "Virtual DOM and reconciliation",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/virtual-dom-reconciliation.md",
-    "resources": [
-      {
-        "label": "react.dev: Preserving and resetting state",
-        "url": "https://react.dev/learn/preserving-and-resetting-state"
-      },
-      {
-        "label": "react.dev: Rendering lists",
-        "url": "https://react.dev/learn/rendering-lists"
-      },
-      {
-        "label": "react.dev: Render and commit",
-        "url": "https://react.dev/learn/render-and-commit"
-      },
-      {
-        "label": "Svelte docs: What are runes?",
-        "url": "https://svelte.dev/docs/svelte/what-are-runes"
-      }
-    ]
-  },
-  {
-    "id": "react-usestate-batching",
-    "title": "useState and state updates",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/usestate-batching.md",
-    "resources": [
-      {
-        "label": "react.dev: useState",
-        "url": "https://react.dev/reference/react/useState"
-      },
-      {
-        "label": "react.dev: State as a snapshot",
-        "url": "https://react.dev/learn/state-as-a-snapshot"
-      },
-      {
-        "label": "react.dev: Queueing a series of state updates",
-        "url": "https://react.dev/learn/queueing-a-series-of-state-updates"
-      },
-      {
-        "label": "react.dev: Choosing the state structure",
-        "url": "https://react.dev/learn/choosing-the-state-structure"
-      }
-    ]
-  },
-  {
-    "id": "react-useeffect",
-    "title": "useEffect deep dive",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/useeffect.md",
-    "resources": [
-      {
-        "label": "react.dev: useEffect",
-        "url": "https://react.dev/reference/react/useEffect"
-      },
-      {
-        "label": "react.dev: You might not need an effect",
-        "url": "https://react.dev/learn/you-might-not-need-an-effect"
-      },
-      {
-        "label": "react.dev: Synchronizing with effects",
-        "url": "https://react.dev/learn/synchronizing-with-effects"
-      },
-      {
-        "label": "MDN: AbortController",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
-      }
-    ]
-  },
-  {
-    "id": "react-memoization",
-    "title": "useMemo, useCallback and React.memo",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/memoization.md",
-    "resources": [
-      {
-        "label": "react.dev: useMemo",
-        "url": "https://react.dev/reference/react/useMemo"
-      },
-      {
-        "label": "react.dev: memo",
-        "url": "https://react.dev/reference/react/memo"
-      },
-      {
-        "label": "react.dev: useCallback",
-        "url": "https://react.dev/reference/react/useCallback"
-      },
-      {
-        "label": "react.dev: React Compiler",
-        "url": "https://react.dev/learn/react-compiler"
-      }
-    ]
-  },
-  {
-    "id": "react-custom-hooks",
-    "title": "Custom hooks",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/custom-hooks.md",
-    "resources": [
-      {
-        "label": "react.dev: Reusing logic with custom hooks",
-        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
-      },
-      {
-        "label": "react.dev: Rules of Hooks",
-        "url": "https://react.dev/reference/rules/rules-of-hooks"
-      },
-      {
-        "label": "Testing Library: renderHook",
-        "url": "https://testing-library.com/docs/react-testing-library/api#renderhook"
-      },
-      {
-        "label": "MDN: setTimeout",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout"
-      }
-    ]
-  },
-  {
-    "id": "react-context-state-management",
-    "title": "Context and state management",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/context-state-management.md",
-    "resources": [
-      {
-        "label": "react.dev: Passing data deeply with context",
-        "url": "https://react.dev/learn/passing-data-deeply-with-context"
-      },
-      {
-        "label": "react.dev: Scaling up with reducer and context",
-        "url": "https://react.dev/learn/scaling-up-with-reducer-and-context"
-      },
-      {
-        "label": "TanStack Query overview",
-        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
-      },
-      {
-        "label": "Redux Toolkit: Getting started",
-        "url": "https://redux-toolkit.js.org/introduction/getting-started"
-      }
-    ]
-  },
-  {
-    "id": "react-rendering-performance",
-    "title": "React performance optimisation",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/rendering-performance.md",
-    "resources": [
-      {
-        "label": "react.dev: useDeferredValue",
-        "url": "https://react.dev/reference/react/useDeferredValue"
-      },
-      {
-        "label": "react.dev: useTransition",
-        "url": "https://react.dev/reference/react/useTransition"
-      },
-      {
-        "label": "react.dev: lazy",
-        "url": "https://react.dev/reference/react/lazy"
-      },
-      {
-        "label": "web.dev: Virtualize large lists with react-window",
-        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
-      }
-    ]
-  },
-  {
-    "id": "react-useref-forwardref",
-    "title": "useRef and refs",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/useref-forwardref.md",
-    "resources": [
-      {
-        "label": "react.dev: useRef",
-        "url": "https://react.dev/reference/react/useRef"
-      },
-      {
-        "label": "react.dev: Manipulating the DOM with refs",
-        "url": "https://react.dev/learn/manipulating-the-dom-with-refs"
-      },
-      {
-        "label": "react.dev: useImperativeHandle",
-        "url": "https://react.dev/reference/react/useImperativeHandle"
-      },
-      {
-        "label": "react.dev: React 19 release",
-        "url": "https://react.dev/blog/2024/12/05/react-19"
-      }
-    ]
-  },
-  {
-    "id": "react-forms",
-    "title": "Controlled vs uncontrolled forms",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/forms.md",
-    "resources": [
-      {
-        "label": "react.dev: input",
-        "url": "https://react.dev/reference/react-dom/components/input"
-      },
-      {
-        "label": "react.dev: useActionState",
-        "url": "https://react.dev/reference/react/useActionState"
-      },
-      {
-        "label": "react.dev: useFormStatus",
-        "url": "https://react.dev/reference/react-dom/hooks/useFormStatus"
-      },
-      {
-        "label": "React Hook Form: Get started",
-        "url": "https://react-hook-form.com/get-started"
-      }
-    ]
-  },
-  {
-    "id": "react-error-boundaries",
-    "title": "Error boundaries",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/error-boundaries.md",
-    "resources": [
-      {
-        "label": "react.dev: Catching rendering errors with an error boundary",
-        "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
-      },
-      {
-        "label": "react-error-boundary on GitHub",
-        "url": "https://github.com/bvaughn/react-error-boundary"
-      },
-      {
-        "label": "Sentry React docs",
-        "url": "https://docs.sentry.io/platforms/javascript/guides/react/"
-      },
-      {
-        "label": "svelte.dev: svelte:boundary",
-        "url": "https://svelte.dev/docs/svelte/svelte-boundary"
-      }
-    ]
-  },
-  {
-    "id": "react-suspense-lazy",
-    "title": "Suspense, lazy loading and code splitting",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/suspense-lazy.md",
-    "resources": [
-      {
-        "label": "react.dev: lazy",
-        "url": "https://react.dev/reference/react/lazy"
-      },
-      {
-        "label": "react.dev: Suspense",
-        "url": "https://react.dev/reference/react/Suspense"
-      },
-      {
-        "label": "react.dev: use",
-        "url": "https://react.dev/reference/react/use"
-      },
-      {
-        "label": "web.dev: Code splitting with React.lazy and Suspense",
-        "url": "https://web.dev/articles/code-splitting-suspense"
-      }
-    ]
-  },
-  {
-    "id": "react-18-19-features",
-    "title": "React 18 and 19 features",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/18-19-features.md",
-    "resources": [
-      {
-        "label": "react.dev: React v18.0",
-        "url": "https://react.dev/blog/2022/03/29/react-v18"
-      },
-      {
-        "label": "react.dev: React v19",
-        "url": "https://react.dev/blog/2024/12/05/react-19"
-      },
-      {
-        "label": "react.dev: useTransition",
-        "url": "https://react.dev/reference/react/useTransition"
-      },
-      {
-        "label": "react.dev: React Compiler",
-        "url": "https://react.dev/learn/react-compiler"
-      }
-    ]
-  },
-  {
-    "id": "react-server-components-nextjs",
-    "title": "Server Components and Next.js basics",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/server-components-nextjs.md",
-    "resources": [
-      {
-        "label": "react.dev: Server Components",
-        "url": "https://react.dev/reference/rsc/server-components"
-      },
-      {
-        "label": "react.dev: 'use client'",
-        "url": "https://react.dev/reference/rsc/use-client"
-      },
-      {
-        "label": "Next.js docs: App Router",
-        "url": "https://nextjs.org/docs/app"
-      },
-      {
-        "label": "svelte.dev: Loading data",
-        "url": "https://svelte.dev/docs/kit/load"
-      }
-    ]
-  },
-  {
-    "id": "react-data-fetching",
-    "title": "Data fetching in React",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/data-fetching.md",
-    "resources": [
-      {
-        "label": "react.dev: Fetching data with effects",
-        "url": "https://react.dev/learn/synchronizing-with-effects#fetching-data"
-      },
-      {
-        "label": "TanStack Query: Overview",
-        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
-      },
-      {
-        "label": "SWR docs",
-        "url": "https://swr.vercel.app/"
-      },
-      {
-        "label": "MDN: AbortController",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
-      }
-    ]
-  },
-  {
-    "id": "react-testing",
-    "title": "Testing React components",
-    "category": "React",
-    "priority": "medium",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/testing.md",
-    "resources": [
-      {
-        "label": "Testing Library: React intro",
-        "url": "https://testing-library.com/docs/react-testing-library/intro"
-      },
-      {
-        "label": "Testing Library: Query priority",
-        "url": "https://testing-library.com/docs/queries/about#priority"
-      },
-      {
-        "label": "Testing Library: user-event",
-        "url": "https://testing-library.com/docs/user-event/intro"
-      },
-      {
-        "label": "MSW docs",
-        "url": "https://mswjs.io/docs/"
-      }
-    ]
-  },
-  {
-    "id": "react-vs-svelte",
-    "title": "React vs Svelte",
-    "category": "React",
-    "priority": "high",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/vs-svelte.md",
-    "resources": [
-      {
-        "label": "react.dev: Thinking in React",
-        "url": "https://react.dev/learn/thinking-in-react"
-      },
-      {
-        "label": "react.dev: You Might Not Need an Effect",
-        "url": "https://react.dev/learn/you-might-not-need-an-effect"
-      },
-      {
-        "label": "svelte.dev: What are runes?",
-        "url": "https://svelte.dev/docs/svelte/what-are-runes"
-      },
-      {
-        "label": "svelte.dev: $state",
-        "url": "https://svelte.dev/docs/svelte/$state"
-      }
-    ]
-  },
-  {
-    "id": "react-portals-hoc-render-props",
-    "title": "Portals, HOCs and render props",
-    "category": "React",
-    "priority": "low",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/portals-hoc-render-props.md",
-    "resources": [
-      {
-        "label": "react.dev: createPortal",
-        "url": "https://react.dev/reference/react-dom/createPortal"
-      },
-      {
-        "label": "react.dev: Reusing logic with custom hooks",
-        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
-      },
-      {
-        "label": "legacy.reactjs.org: Higher-order components",
-        "url": "https://legacy.reactjs.org/docs/higher-order-components.html"
-      },
-      {
-        "label": "legacy.reactjs.org: Render props",
-        "url": "https://legacy.reactjs.org/docs/render-props.html"
-      }
-    ]
-  },
-  {
-    "id": "react-component-patterns",
-    "title": "Component design patterns",
-    "category": "React",
-    "priority": "low",
-    "tags": [
-      "react"
-    ],
-    "note": "notes/react/component-patterns.md",
-    "resources": [
-      {
-        "label": "react.dev: Passing data deeply with context",
-        "url": "https://react.dev/learn/passing-data-deeply-with-context"
-      },
-      {
-        "label": "react.dev: Sharing state between components",
-        "url": "https://react.dev/learn/sharing-state-between-components"
-      },
-      {
-        "label": "react.dev: Passing props to a component",
-        "url": "https://react.dev/learn/passing-props-to-a-component"
       }
     ]
   }
