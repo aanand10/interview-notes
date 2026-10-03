@@ -637,8 +637,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/event-loop.md",
+    "resources": [
+      {
+        "label": "javascript.info: Event loop",
+        "url": "https://javascript.info/event-loop"
+      },
+      {
+        "label": "MDN: JavaScript execution model",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model"
+      },
+      {
+        "label": "MDN: Microtask guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"
+      },
+      {
+        "label": "web.dev: Optimize long tasks",
+        "url": "https://web.dev/articles/optimize-long-tasks"
+      }
+    ]
   },
   {
     "id": "async-microtasks-vs-macrotasks",
@@ -648,8 +665,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/microtasks-vs-macrotasks.md",
+    "resources": [
+      {
+        "label": "MDN: Using microtasks (Microtask guide)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"
+      },
+      {
+        "label": "javascript.info: Microtasks",
+        "url": "https://javascript.info/microtask-queue"
+      },
+      {
+        "label": "MDN: requestAnimationFrame",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      },
+      {
+        "label": "web.dev: Optimize long tasks",
+        "url": "https://web.dev/articles/optimize-long-tasks"
+      }
+    ]
   },
   {
     "id": "js-promises",
@@ -659,8 +693,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/promises.md",
+    "resources": [
+      {
+        "label": "MDN: Using promises",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+      },
+      {
+        "label": "javascript.info: Promise chaining",
+        "url": "https://javascript.info/promise-chaining"
+      },
+      {
+        "label": "javascript.info: Error handling with promises",
+        "url": "https://javascript.info/promise-error-handling"
+      },
+      {
+        "label": "MDN: Promise.prototype.finally",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally"
+      }
+    ]
   },
   {
     "id": "async-async-await",
@@ -670,8 +721,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/async-await.md",
+    "resources": [
+      {
+        "label": "javascript.info: Async/await",
+        "url": "https://javascript.info/async-await"
+      },
+      {
+        "label": "MDN: async function",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+      },
+      {
+        "label": "MDN: await (top-level await)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await"
+      },
+      {
+        "label": "MDN: Promises (Learn)",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Async_JS/Promises"
+      }
+    ]
   },
   {
     "id": "async-promise-combinators",
@@ -681,8 +749,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/promise-combinators.md",
+    "resources": [
+      {
+        "label": "javascript.info: Promise API",
+        "url": "https://javascript.info/promise-api"
+      },
+      {
+        "label": "MDN: Promise.all",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"
+      },
+      {
+        "label": "MDN: Promise.allSettled",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled"
+      },
+      {
+        "label": "MDN: Promise.any",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any"
+      }
+    ]
   },
   {
     "id": "async-sequential-vs-parallel",
@@ -692,8 +777,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/sequential-vs-parallel.md",
+    "resources": [
+      {
+        "label": "MDN: Using promises (composition)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises#composition"
+      },
+      {
+        "label": "javascript.info: Promise API",
+        "url": "https://javascript.info/promise-api"
+      },
+      {
+        "label": "MDN: Array.prototype.reduce",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+      },
+      {
+        "label": "javascript.info: Async/await",
+        "url": "https://javascript.info/async-await"
+      }
+    ]
   },
   {
     "id": "async-fetch",
@@ -703,8 +805,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/fetch.md",
+    "resources": [
+      {
+        "label": "MDN: Using the Fetch API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+      },
+      {
+        "label": "MDN: Response.ok",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Response/ok"
+      },
+      {
+        "label": "javascript.info: Fetch",
+        "url": "https://javascript.info/fetch"
+      },
+      {
+        "label": "SvelteKit: Loading data",
+        "url": "https://svelte.dev/docs/kit/load"
+      }
+    ]
   },
   {
     "id": "async-abortcontroller-and-timeouts",
@@ -714,8 +833,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/abortcontroller-and-timeouts.md",
+    "resources": [
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "MDN: AbortSignal.timeout()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/timeout_static"
+      },
+      {
+        "label": "javascript.info: Fetch: Abort",
+        "url": "https://javascript.info/fetch-abort"
+      },
+      {
+        "label": "Svelte docs: $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      }
+    ]
   },
   {
     "id": "async-race-conditions",
@@ -725,8 +861,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/race-conditions.md",
+    "resources": [
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "javascript.info: Fetch: Abort",
+        "url": "https://javascript.info/fetch-abort"
+      },
+      {
+        "label": "Svelte docs: $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      },
+      {
+        "label": "react.dev: Fetching data in effects (race conditions)",
+        "url": "https://react.dev/learn/synchronizing-with-effects#fetching-data"
+      }
+    ]
   },
   {
     "id": "async-retry-with-backoff",
@@ -736,8 +889,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/retry-with-backoff.md",
+    "resources": [
+      {
+        "label": "MDN: Using promises",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+      },
+      {
+        "label": "javascript.info: Async/await",
+        "url": "https://javascript.info/async-await"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "MDN: 429 Too Many Requests",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+      }
+    ]
   },
   {
     "id": "async-concurrency-limit",
@@ -747,8 +917,21 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/concurrency-limit.md",
+    "resources": [
+      {
+        "label": "MDN: Promise.all",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"
+      },
+      {
+        "label": "MDN: Promise.allSettled",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled"
+      },
+      {
+        "label": "javascript.info: Promise API",
+        "url": "https://javascript.info/promise-api"
+      }
+    ]
   },
   {
     "id": "async-callbacks",
@@ -758,8 +941,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/callbacks.md",
+    "resources": [
+      {
+        "label": "javascript.info: Callbacks",
+        "url": "https://javascript.info/callbacks"
+      },
+      {
+        "label": "javascript.info: Promisification",
+        "url": "https://javascript.info/promisify"
+      },
+      {
+        "label": "MDN: Callback function",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"
+      },
+      {
+        "label": "MDN: Using promises",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+      }
+    ]
   },
   {
     "id": "async-timers",
@@ -769,8 +969,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/timers.md",
+    "resources": [
+      {
+        "label": "MDN: setTimeout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout"
+      },
+      {
+        "label": "javascript.info: Scheduling",
+        "url": "https://javascript.info/settimeout-setinterval"
+      },
+      {
+        "label": "developer.chrome.com: Timer throttling in Chrome 88",
+        "url": "https://developer.chrome.com/blog/timer-throttling-in-chrome-88"
+      },
+      {
+        "label": "MDN: Page Visibility API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API"
+      }
+    ]
   },
   {
     "id": "async-unhandled-rejections",
@@ -780,8 +997,25 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/unhandled-rejections.md",
+    "resources": [
+      {
+        "label": "MDN: unhandledrejection event",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/unhandledrejection_event"
+      },
+      {
+        "label": "MDN: rejectionhandled event",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/rejectionhandled_event"
+      },
+      {
+        "label": "javascript.info: Error handling with promises",
+        "url": "https://javascript.info/promise-error-handling"
+      },
+      {
+        "label": "SvelteKit: Hooks",
+        "url": "https://svelte.dev/docs/kit/hooks"
+      }
+    ]
   },
   {
     "id": "async-async-iteration",
@@ -791,8 +1025,217 @@
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/async/async-iteration.md",
+    "resources": [
+      {
+        "label": "MDN: for await...of",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of"
+      },
+      {
+        "label": "javascript.info: Async iteration and generators",
+        "url": "https://javascript.info/async-iterators-generators"
+      },
+      {
+        "label": "MDN: Using readable streams",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams"
+      }
+    ]
+  },
+  {
+    "id": "jsq-output-scope-hoisting",
+    "title": "Output questions: scope, hoisting, closures",
+    "category": "JS question bank",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/output-scope-hoisting.md",
+    "resources": [
+      {
+        "label": "MDN: Hoisting",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+      },
+      {
+        "label": "javascript.info: Variable scope, closure",
+        "url": "https://javascript.info/closure"
+      },
+      {
+        "label": "javascript.info: The old \"var\"",
+        "url": "https://javascript.info/var"
+      },
+      {
+        "label": "MDN: Closures",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+      }
+    ]
+  },
+  {
+    "id": "jsq-output-this",
+    "title": "Output questions: this and binding",
+    "category": "JS question bank",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/output-this.md",
+    "resources": [
+      {
+        "label": "MDN: this",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
+      },
+      {
+        "label": "javascript.info: Object methods, \"this\"",
+        "url": "https://javascript.info/object-methods"
+      },
+      {
+        "label": "javascript.info: Function binding",
+        "url": "https://javascript.info/bind"
+      },
+      {
+        "label": "MDN: Function.prototype.bind",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+      }
+    ]
+  },
+  {
+    "id": "jsq-output-async",
+    "title": "Output questions: promises and event loop",
+    "category": "JS question bank",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/output-async.md",
+    "resources": [
+      {
+        "label": "javascript.info: Event loop: microtasks and macrotasks",
+        "url": "https://javascript.info/event-loop"
+      },
+      {
+        "label": "javascript.info: Microtasks",
+        "url": "https://javascript.info/microtask-queue"
+      },
+      {
+        "label": "MDN: Using microtasks",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"
+      },
+      {
+        "label": "MDN: Promise.prototype.finally",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally"
+      }
+    ]
+  },
+  {
+    "id": "jsq-output-coercion",
+    "title": "Output questions: types and coercion",
+    "category": "JS question bank",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/output-coercion.md",
+    "resources": [
+      {
+        "label": "javascript.info: Type conversions",
+        "url": "https://javascript.info/type-conversions"
+      },
+      {
+        "label": "MDN: Equality comparisons and sameness",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+      },
+      {
+        "label": "MDN: parseInt",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt"
+      },
+      {
+        "label": "MDN: Array.prototype.sort",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+      }
+    ]
+  },
+  {
+    "id": "jsq-coding-questions",
+    "title": "Common JS coding questions",
+    "category": "JS question bank",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/coding-questions.md",
+    "resources": [
+      {
+        "label": "MDN: Set",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set"
+      },
+      {
+        "label": "MDN: Array.prototype.flat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+      },
+      {
+        "label": "MDN: Object.groupBy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy"
+      },
+      {
+        "label": "javascript.info: Map and Set",
+        "url": "https://javascript.info/map-set"
+      }
+    ]
+  },
+  {
+    "id": "jsq-tricky-concepts",
+    "title": "Tricky JS concepts interviewers love",
+    "category": "JS question bank",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/tricky-concepts.md",
+    "resources": [
+      {
+        "label": "javascript.info: Object references and copying",
+        "url": "https://javascript.info/object-copy"
+      },
+      {
+        "label": "MDN: Indexed collections (sparse arrays)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections#sparse_arrays"
+      },
+      {
+        "label": "MDN: Date",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
+      },
+      {
+        "label": "MDN: JSON.stringify",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+      }
+    ]
+  },
+  {
+    "id": "jsq-pure-functions-immutability",
+    "title": "Pure functions and immutability",
+    "category": "JS question bank",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/js-question-bank/pure-functions-immutability.md",
+    "resources": [
+      {
+        "label": "MDN: structuredClone",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone"
+      },
+      {
+        "label": "MDN: Object.freeze",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+      },
+      {
+        "label": "javascript.info: Object references and copying",
+        "url": "https://javascript.info/object-copy"
+      },
+      {
+        "label": "Svelte docs: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
+    ]
   },
   {
     "id": "poly-array-reduce",
@@ -2817,8 +3260,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/cache-versioning.md",
+    "resources": [
+      {
+        "label": "MDN: CacheStorage.keys()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/keys"
+      },
+      {
+        "label": "web.dev: Prevent unnecessary network requests with the HTTP Cache",
+        "url": "https://web.dev/articles/http-cache"
+      },
+      {
+        "label": "SvelteKit: Service workers",
+        "url": "https://svelte.dev/docs/kit/service-workers"
+      },
+      {
+        "label": "web.dev: Learn PWA - Update",
+        "url": "https://web.dev/learn/pwa/update"
+      }
+    ]
   },
   {
     "id": "pwa-web-workers",
@@ -2828,8 +3288,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/web-workers.md",
+    "resources": [
+      {
+        "label": "MDN: Using Web Workers",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+      },
+      {
+        "label": "MDN: Transferable objects",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
+      },
+      {
+        "label": "web.dev: Use web workers to run JavaScript off the browser's main thread",
+        "url": "https://web.dev/articles/off-main-thread"
+      },
+      {
+        "label": "javascript.info: Event loop",
+        "url": "https://javascript.info/event-loop"
+      }
+    ]
   },
   {
     "id": "pwa-comlink",
@@ -2839,8 +3316,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/comlink.md",
+    "resources": [
+      {
+        "label": "Comlink on GitHub",
+        "url": "https://github.com/GoogleChromeLabs/comlink"
+      },
+      {
+        "label": "web.dev: Use web workers to run JavaScript off the browser's main thread",
+        "url": "https://web.dev/articles/off-main-thread"
+      },
+      {
+        "label": "MDN: Proxy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+      },
+      {
+        "label": "MDN: Worker.postMessage()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage"
+      }
+    ]
   },
   {
     "id": "pwa-service-worker-vs-web-worker",
@@ -2850,8 +3344,21 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/service-worker-vs-web-worker.md",
+    "resources": [
+      {
+        "label": "MDN: Web Workers API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"
+      },
+      {
+        "label": "MDN: Service Worker API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "label": "web.dev: Workers overview",
+        "url": "https://web.dev/articles/workers-overview"
+      }
+    ]
   },
   {
     "id": "pwa-indexeddb",
@@ -2861,8 +3368,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/indexeddb.md",
+    "resources": [
+      {
+        "label": "MDN: Using IndexedDB",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"
+      },
+      {
+        "label": "javascript.info: IndexedDB",
+        "url": "https://javascript.info/indexeddb"
+      },
+      {
+        "label": "web.dev: Work with IndexedDB",
+        "url": "https://web.dev/articles/indexeddb"
+      },
+      {
+        "label": "web.dev: Storage for the web",
+        "url": "https://web.dev/articles/storage-for-the-web"
+      }
+    ]
   },
   {
     "id": "pwa-cache-api",
@@ -2872,8 +3396,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/cache-api.md",
+    "resources": [
+      {
+        "label": "MDN: Cache",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Cache"
+      },
+      {
+        "label": "MDN: CacheStorage",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"
+      },
+      {
+        "label": "web.dev: The Cache API: A quick guide",
+        "url": "https://web.dev/articles/cache-api-quick-guide"
+      },
+      {
+        "label": "web.dev: Learn PWA - Caching",
+        "url": "https://web.dev/learn/pwa/caching"
+      }
+    ]
   },
   {
     "id": "pwa-storage-limits-and-eviction",
@@ -2883,8 +3424,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/storage-limits-and-eviction.md",
+    "resources": [
+      {
+        "label": "MDN: Storage quotas and eviction criteria",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria"
+      },
+      {
+        "label": "web.dev: Storage for the web",
+        "url": "https://web.dev/articles/storage-for-the-web"
+      },
+      {
+        "label": "web.dev: Persistent storage",
+        "url": "https://web.dev/articles/persistent-storage"
+      },
+      {
+        "label": "MDN: StorageManager.estimate()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate"
+      }
+    ]
   },
   {
     "id": "pwa-push-notifications",
@@ -2894,8 +3452,25 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/push-notifications.md",
+    "resources": [
+      {
+        "label": "web.dev: Push notifications overview",
+        "url": "https://web.dev/articles/push-notifications-overview"
+      },
+      {
+        "label": "MDN: Push API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Push_API"
+      },
+      {
+        "label": "MDN: Notifications API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API"
+      },
+      {
+        "label": "web.dev: Permission UX",
+        "url": "https://web.dev/articles/push-notifications-permissions-ux"
+      }
+    ]
   },
   {
     "id": "pwa-geolocation-api",
@@ -2905,8 +3480,21 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/geolocation-api.md",
+    "resources": [
+      {
+        "label": "MDN: Using the Geolocation API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API"
+      },
+      {
+        "label": "MDN: getCurrentPosition()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition"
+      },
+      {
+        "label": "web.dev: User location",
+        "url": "https://web.dev/articles/user-location"
+      }
+    ]
   },
   {
     "id": "pwa-background-sync",
@@ -2916,8 +3504,21 @@
     "tags": [
       "jd"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/pwa/background-sync.md",
+    "resources": [
+      {
+        "label": "MDN: Background Synchronization API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Background_Synchronization_API"
+      },
+      {
+        "label": "Chrome for Developers: workbox-background-sync",
+        "url": "https://developer.chrome.com/docs/workbox/modules/workbox-background-sync"
+      },
+      {
+        "label": "web.dev: Learn PWA - Service workers",
+        "url": "https://web.dev/learn/pwa/service-workers"
+      }
+    ]
   },
   {
     "id": "mobile-what-a-webview-is",
@@ -3404,8 +4005,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/xss.md",
+    "resources": [
+      {
+        "label": "OWASP: XSS Prevention Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      },
+      {
+        "label": "MDN: Content Security Policy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP"
+      },
+      {
+        "label": "Svelte docs: {@html}",
+        "url": "https://svelte.dev/docs/svelte/@html"
+      },
+      {
+        "label": "web.dev: Strict CSP",
+        "url": "https://web.dev/articles/strict-csp"
+      }
+    ]
   },
   {
     "id": "sec-csrf",
@@ -3415,8 +4033,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/csrf.md",
+    "resources": [
+      {
+        "label": "OWASP: CSRF Prevention Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+      },
+      {
+        "label": "MDN: Set-Cookie SameSite",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie#samesitesamesite-value"
+      },
+      {
+        "label": "web.dev: SameSite cookies explained",
+        "url": "https://web.dev/articles/samesite-cookies-explained"
+      },
+      {
+        "label": "SvelteKit: csrf config",
+        "url": "https://svelte.dev/docs/kit/configuration#csrf"
+      }
+    ]
   },
   {
     "id": "sec-auth-token-storage",
@@ -3426,8 +4061,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/auth-token-storage.md",
+    "resources": [
+      {
+        "label": "OWASP: Session Management Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
+      },
+      {
+        "label": "MDN: Using HTTP cookies",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies"
+      },
+      {
+        "label": "MDN: BroadcastChannel",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel"
+      },
+      {
+        "label": "OWASP: HTML5 Security Cheat Sheet (Local Storage)",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#local-storage"
+      }
+    ]
   },
   {
     "id": "sec-cors",
@@ -3437,8 +4089,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/cors.md",
+    "resources": [
+      {
+        "label": "MDN: CORS guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"
+      },
+      {
+        "label": "MDN: Same-origin policy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy"
+      },
+      {
+        "label": "web.dev: Cross-Origin Resource Sharing",
+        "url": "https://web.dev/articles/cross-origin-resource-sharing"
+      },
+      {
+        "label": "javascript.info: Fetch Cross-Origin Requests",
+        "url": "https://javascript.info/fetch-crossorigin"
+      }
+    ]
   },
   {
     "id": "sec-http-basics",
@@ -3448,8 +4117,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/http-basics.md",
+    "resources": [
+      {
+        "label": "MDN: HTTP request methods",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods"
+      },
+      {
+        "label": "MDN: HTTP response status codes",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status"
+      },
+      {
+        "label": "MDN: Evolution of HTTP",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP"
+      },
+      {
+        "label": "MDN: Idempotent",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Idempotent"
+      }
+    ]
   },
   {
     "id": "sec-rest-vs-websockets-vs-sse-vs-polling",
@@ -3459,8 +4145,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/rest-vs-websockets-vs-sse-vs-polling.md",
+    "resources": [
+      {
+        "label": "MDN: Using server-sent events",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events"
+      },
+      {
+        "label": "MDN: WebSocket API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+      },
+      {
+        "label": "javascript.info: Long polling",
+        "url": "https://javascript.info/long-polling"
+      },
+      {
+        "label": "javascript.info: WebSocket",
+        "url": "https://javascript.info/websocket"
+      }
+    ]
   },
   {
     "id": "sec-websocket-handling",
@@ -3470,8 +4173,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/websocket-handling.md",
+    "resources": [
+      {
+        "label": "MDN: Writing WebSocket client applications",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications"
+      },
+      {
+        "label": "MDN: IntersectionObserver",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"
+      },
+      {
+        "label": "MDN: Page Visibility API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API"
+      },
+      {
+        "label": "javascript.info: WebSocket",
+        "url": "https://javascript.info/websocket"
+      }
+    ]
   },
   {
     "id": "sec-clickjacking",
@@ -3481,8 +4201,21 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/clickjacking.md",
+    "resources": [
+      {
+        "label": "OWASP: Clickjacking Defense Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html"
+      },
+      {
+        "label": "MDN: CSP frame-ancestors",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors"
+      },
+      {
+        "label": "MDN: X-Frame-Options",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options"
+      }
+    ]
   },
   {
     "id": "sec-sensitive-data-in-frontend",
@@ -3492,8 +4225,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/sensitive-data-in-frontend.md",
+    "resources": [
+      {
+        "label": "OWASP: Logging Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+      },
+      {
+        "label": "SvelteKit: $env/static/private",
+        "url": "https://svelte.dev/docs/kit/$env-static-private"
+      },
+      {
+        "label": "SvelteKit: $env/static/public",
+        "url": "https://svelte.dev/docs/kit/$env-static-public"
+      },
+      {
+        "label": "OWASP Top 10: Cryptographic Failures (sensitive data exposure)",
+        "url": "https://owasp.org/Top10/A02_2021-Cryptographic_Failures/"
+      }
+    ]
   },
   {
     "id": "sec-third-party-scripts",
@@ -3503,8 +4253,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/third-party-scripts.md",
+    "resources": [
+      {
+        "label": "MDN: Subresource Integrity",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity"
+      },
+      {
+        "label": "MDN: The script element",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/script"
+      },
+      {
+        "label": "web.dev: Efficiently load third-party JavaScript",
+        "url": "https://web.dev/articles/efficiently-load-third-party-javascript"
+      },
+      {
+        "label": "OWASP: Third Party JavaScript Management Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html"
+      }
+    ]
   },
   {
     "id": "sec-https-and-tls",
@@ -3514,8 +4281,25 @@
     "tags": [
       
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/security/https-and-tls.md",
+    "resources": [
+      {
+        "label": "MDN: Secure contexts",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts"
+      },
+      {
+        "label": "MDN: Service Worker API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "label": "MDN: Strict-Transport-Security",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security"
+      },
+      {
+        "label": "web.dev: Why HTTPS matters",
+        "url": "https://web.dev/articles/why-https-matters"
+      }
+    ]
   },
   {
     "id": "test-testing-pyramid",
@@ -4409,6 +5193,506 @@
       {
         "label": "web.dev: Web Vitals",
         "url": "https://web.dev/articles/vitals"
+      }
+    ]
+  },
+  {
+    "id": "react-virtual-dom-reconciliation",
+    "title": "Virtual DOM and reconciliation",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/virtual-dom-reconciliation.md",
+    "resources": [
+      {
+        "label": "react.dev: Preserving and resetting state",
+        "url": "https://react.dev/learn/preserving-and-resetting-state"
+      },
+      {
+        "label": "react.dev: Rendering lists",
+        "url": "https://react.dev/learn/rendering-lists"
+      },
+      {
+        "label": "react.dev: Render and commit",
+        "url": "https://react.dev/learn/render-and-commit"
+      },
+      {
+        "label": "Svelte docs: What are runes?",
+        "url": "https://svelte.dev/docs/svelte/what-are-runes"
+      }
+    ]
+  },
+  {
+    "id": "react-usestate-batching",
+    "title": "useState and state updates",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/usestate-batching.md",
+    "resources": [
+      {
+        "label": "react.dev: useState",
+        "url": "https://react.dev/reference/react/useState"
+      },
+      {
+        "label": "react.dev: State as a snapshot",
+        "url": "https://react.dev/learn/state-as-a-snapshot"
+      },
+      {
+        "label": "react.dev: Queueing a series of state updates",
+        "url": "https://react.dev/learn/queueing-a-series-of-state-updates"
+      },
+      {
+        "label": "react.dev: Choosing the state structure",
+        "url": "https://react.dev/learn/choosing-the-state-structure"
+      }
+    ]
+  },
+  {
+    "id": "react-useeffect",
+    "title": "useEffect deep dive",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/useeffect.md",
+    "resources": [
+      {
+        "label": "react.dev: useEffect",
+        "url": "https://react.dev/reference/react/useEffect"
+      },
+      {
+        "label": "react.dev: You might not need an effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      },
+      {
+        "label": "react.dev: Synchronizing with effects",
+        "url": "https://react.dev/learn/synchronizing-with-effects"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      }
+    ]
+  },
+  {
+    "id": "react-memoization",
+    "title": "useMemo, useCallback and React.memo",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/memoization.md",
+    "resources": [
+      {
+        "label": "react.dev: useMemo",
+        "url": "https://react.dev/reference/react/useMemo"
+      },
+      {
+        "label": "react.dev: memo",
+        "url": "https://react.dev/reference/react/memo"
+      },
+      {
+        "label": "react.dev: useCallback",
+        "url": "https://react.dev/reference/react/useCallback"
+      },
+      {
+        "label": "react.dev: React Compiler",
+        "url": "https://react.dev/learn/react-compiler"
+      }
+    ]
+  },
+  {
+    "id": "react-custom-hooks",
+    "title": "Custom hooks",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/custom-hooks.md",
+    "resources": [
+      {
+        "label": "react.dev: Reusing logic with custom hooks",
+        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+      },
+      {
+        "label": "react.dev: Rules of Hooks",
+        "url": "https://react.dev/reference/rules/rules-of-hooks"
+      },
+      {
+        "label": "Testing Library: renderHook",
+        "url": "https://testing-library.com/docs/react-testing-library/api#renderhook"
+      },
+      {
+        "label": "MDN: setTimeout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout"
+      }
+    ]
+  },
+  {
+    "id": "react-context-state-management",
+    "title": "Context and state management",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/context-state-management.md",
+    "resources": [
+      {
+        "label": "react.dev: Passing data deeply with context",
+        "url": "https://react.dev/learn/passing-data-deeply-with-context"
+      },
+      {
+        "label": "react.dev: Scaling up with reducer and context",
+        "url": "https://react.dev/learn/scaling-up-with-reducer-and-context"
+      },
+      {
+        "label": "TanStack Query overview",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+      },
+      {
+        "label": "Redux Toolkit: Getting started",
+        "url": "https://redux-toolkit.js.org/introduction/getting-started"
+      }
+    ]
+  },
+  {
+    "id": "react-rendering-performance",
+    "title": "React performance optimisation",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/rendering-performance.md",
+    "resources": [
+      {
+        "label": "react.dev: useDeferredValue",
+        "url": "https://react.dev/reference/react/useDeferredValue"
+      },
+      {
+        "label": "react.dev: useTransition",
+        "url": "https://react.dev/reference/react/useTransition"
+      },
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "web.dev: Virtualize large lists with react-window",
+        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
+      }
+    ]
+  },
+  {
+    "id": "react-useref-forwardref",
+    "title": "useRef and refs",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/useref-forwardref.md",
+    "resources": [
+      {
+        "label": "react.dev: useRef",
+        "url": "https://react.dev/reference/react/useRef"
+      },
+      {
+        "label": "react.dev: Manipulating the DOM with refs",
+        "url": "https://react.dev/learn/manipulating-the-dom-with-refs"
+      },
+      {
+        "label": "react.dev: useImperativeHandle",
+        "url": "https://react.dev/reference/react/useImperativeHandle"
+      },
+      {
+        "label": "react.dev: React 19 release",
+        "url": "https://react.dev/blog/2024/12/05/react-19"
+      }
+    ]
+  },
+  {
+    "id": "react-forms",
+    "title": "Controlled vs uncontrolled forms",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/forms.md",
+    "resources": [
+      {
+        "label": "react.dev: input",
+        "url": "https://react.dev/reference/react-dom/components/input"
+      },
+      {
+        "label": "react.dev: useActionState",
+        "url": "https://react.dev/reference/react/useActionState"
+      },
+      {
+        "label": "react.dev: useFormStatus",
+        "url": "https://react.dev/reference/react-dom/hooks/useFormStatus"
+      },
+      {
+        "label": "React Hook Form: Get started",
+        "url": "https://react-hook-form.com/get-started"
+      }
+    ]
+  },
+  {
+    "id": "react-error-boundaries",
+    "title": "Error boundaries",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/error-boundaries.md",
+    "resources": [
+      {
+        "label": "react.dev: Catching rendering errors with an error boundary",
+        "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+      },
+      {
+        "label": "react-error-boundary on GitHub",
+        "url": "https://github.com/bvaughn/react-error-boundary"
+      },
+      {
+        "label": "Sentry React docs",
+        "url": "https://docs.sentry.io/platforms/javascript/guides/react/"
+      },
+      {
+        "label": "svelte.dev: svelte:boundary",
+        "url": "https://svelte.dev/docs/svelte/svelte-boundary"
+      }
+    ]
+  },
+  {
+    "id": "react-suspense-lazy",
+    "title": "Suspense, lazy loading and code splitting",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/suspense-lazy.md",
+    "resources": [
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "react.dev: Suspense",
+        "url": "https://react.dev/reference/react/Suspense"
+      },
+      {
+        "label": "react.dev: use",
+        "url": "https://react.dev/reference/react/use"
+      },
+      {
+        "label": "web.dev: Code splitting with React.lazy and Suspense",
+        "url": "https://web.dev/articles/code-splitting-suspense"
+      }
+    ]
+  },
+  {
+    "id": "react-18-19-features",
+    "title": "React 18 and 19 features",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/18-19-features.md",
+    "resources": [
+      {
+        "label": "react.dev: React v18.0",
+        "url": "https://react.dev/blog/2022/03/29/react-v18"
+      },
+      {
+        "label": "react.dev: React v19",
+        "url": "https://react.dev/blog/2024/12/05/react-19"
+      },
+      {
+        "label": "react.dev: useTransition",
+        "url": "https://react.dev/reference/react/useTransition"
+      },
+      {
+        "label": "react.dev: React Compiler",
+        "url": "https://react.dev/learn/react-compiler"
+      }
+    ]
+  },
+  {
+    "id": "react-server-components-nextjs",
+    "title": "Server Components and Next.js basics",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/server-components-nextjs.md",
+    "resources": [
+      {
+        "label": "react.dev: Server Components",
+        "url": "https://react.dev/reference/rsc/server-components"
+      },
+      {
+        "label": "react.dev: 'use client'",
+        "url": "https://react.dev/reference/rsc/use-client"
+      },
+      {
+        "label": "Next.js docs: App Router",
+        "url": "https://nextjs.org/docs/app"
+      },
+      {
+        "label": "svelte.dev: Loading data",
+        "url": "https://svelte.dev/docs/kit/load"
+      }
+    ]
+  },
+  {
+    "id": "react-data-fetching",
+    "title": "Data fetching in React",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/data-fetching.md",
+    "resources": [
+      {
+        "label": "react.dev: Fetching data with effects",
+        "url": "https://react.dev/learn/synchronizing-with-effects#fetching-data"
+      },
+      {
+        "label": "TanStack Query: Overview",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+      },
+      {
+        "label": "SWR docs",
+        "url": "https://swr.vercel.app/"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      }
+    ]
+  },
+  {
+    "id": "react-testing",
+    "title": "Testing React components",
+    "category": "React",
+    "priority": "medium",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/testing.md",
+    "resources": [
+      {
+        "label": "Testing Library: React intro",
+        "url": "https://testing-library.com/docs/react-testing-library/intro"
+      },
+      {
+        "label": "Testing Library: Query priority",
+        "url": "https://testing-library.com/docs/queries/about#priority"
+      },
+      {
+        "label": "Testing Library: user-event",
+        "url": "https://testing-library.com/docs/user-event/intro"
+      },
+      {
+        "label": "MSW docs",
+        "url": "https://mswjs.io/docs/"
+      }
+    ]
+  },
+  {
+    "id": "react-vs-svelte",
+    "title": "React vs Svelte",
+    "category": "React",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/vs-svelte.md",
+    "resources": [
+      {
+        "label": "react.dev: Thinking in React",
+        "url": "https://react.dev/learn/thinking-in-react"
+      },
+      {
+        "label": "react.dev: You Might Not Need an Effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      },
+      {
+        "label": "svelte.dev: What are runes?",
+        "url": "https://svelte.dev/docs/svelte/what-are-runes"
+      },
+      {
+        "label": "svelte.dev: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
+    ]
+  },
+  {
+    "id": "react-portals-hoc-render-props",
+    "title": "Portals, HOCs and render props",
+    "category": "React",
+    "priority": "low",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/portals-hoc-render-props.md",
+    "resources": [
+      {
+        "label": "react.dev: createPortal",
+        "url": "https://react.dev/reference/react-dom/createPortal"
+      },
+      {
+        "label": "react.dev: Reusing logic with custom hooks",
+        "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+      },
+      {
+        "label": "legacy.reactjs.org: Higher-order components",
+        "url": "https://legacy.reactjs.org/docs/higher-order-components.html"
+      },
+      {
+        "label": "legacy.reactjs.org: Render props",
+        "url": "https://legacy.reactjs.org/docs/render-props.html"
+      }
+    ]
+  },
+  {
+    "id": "react-component-patterns",
+    "title": "Component design patterns",
+    "category": "React",
+    "priority": "low",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/component-patterns.md",
+    "resources": [
+      {
+        "label": "react.dev: Passing data deeply with context",
+        "url": "https://react.dev/learn/passing-data-deeply-with-context"
+      },
+      {
+        "label": "react.dev: Sharing state between components",
+        "url": "https://react.dev/learn/sharing-state-between-components"
+      },
+      {
+        "label": "react.dev: Passing props to a component",
+        "url": "https://react.dev/learn/passing-props-to-a-component"
       }
     ]
   }
