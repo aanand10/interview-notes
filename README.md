@@ -1,6 +1,6 @@
 # Interview notes
 
-Content for my Knowledge Tracker app.
+Content for my Recall app (interview prep with spaced repetition).
 
 ```
 topics.json                       ← the list of topics
