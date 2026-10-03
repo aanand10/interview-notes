@@ -2414,6 +2414,209 @@
     ]
   },
   {
+    "id": "react-hooks-overview",
+    "title": "React hooks overview",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/hooks-overview.md",
+    "resources": [
+      {
+        "label": "react.dev: Built-in React Hooks",
+        "url": "https://react.dev/reference/react/hooks"
+      },
+      {
+        "label": "react.dev: Rules of Hooks",
+        "url": "https://react.dev/reference/rules/rules-of-hooks"
+      },
+      {
+        "label": "react.dev: State, a component's memory",
+        "url": "https://react.dev/learn/state-a-components-memory"
+      },
+      {
+        "label": "react.dev: You Might Not Need an Effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      }
+    ]
+  },
+  {
+    "id": "react-routing",
+    "title": "Routing, data loading and lazy routes",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/routing.md",
+    "resources": [
+      {
+        "label": "React Router docs",
+        "url": "https://reactrouter.com/home"
+      },
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "MDN: import()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import"
+      },
+      {
+        "label": "TanStack Query: Prefetching",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/guides/prefetching"
+      }
+    ]
+  },
+  {
+    "id": "react-redux",
+    "title": "Redux and Redux Toolkit",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/redux.md",
+    "resources": [
+      {
+        "label": "Redux Essentials: Overview and concepts",
+        "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts"
+      },
+      {
+        "label": "Redux Toolkit: createSlice",
+        "url": "https://redux-toolkit.js.org/api/createSlice"
+      },
+      {
+        "label": "react.dev: Passing data deeply with Context",
+        "url": "https://react.dev/learn/passing-data-deeply-with-context"
+      },
+      {
+        "label": "TanStack Query overview",
+        "url": "https://tanstack.com/query/latest/docs/framework/react/overview"
+      }
+    ]
+  },
+  {
+    "id": "react-large-lists-virtualization",
+    "title": "Large lists, virtualization and big API responses",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/large-lists-virtualization.md",
+    "resources": [
+      {
+        "label": "TanStack Virtual",
+        "url": "https://tanstack.com/virtual/latest"
+      },
+      {
+        "label": "web.dev: Virtualize long lists",
+        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
+      },
+      {
+        "label": "react.dev: useDeferredValue",
+        "url": "https://react.dev/reference/react/useDeferredValue"
+      },
+      {
+        "label": "web.dev: content-visibility",
+        "url": "https://web.dev/articles/content-visibility"
+      }
+    ]
+  },
+  {
+    "id": "react-api-handling",
+    "title": "API calls, loading and error states in React",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/api-handling.md",
+    "resources": [
+      {
+        "label": "MDN: Promise.all",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "react.dev: You Might Not Need an Effect",
+        "url": "https://react.dev/learn/you-might-not-need-an-effect"
+      },
+      {
+        "label": "TanStack Query docs",
+        "url": "https://tanstack.com/query/latest"
+      }
+    ]
+  },
+  {
+    "id": "react-load-performance",
+    "title": "Making a React app load faster",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/load-performance.md",
+    "resources": [
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "react.dev: lazy",
+        "url": "https://react.dev/reference/react/lazy"
+      },
+      {
+        "label": "web.dev: Optimize LCP",
+        "url": "https://web.dev/articles/optimize-lcp"
+      },
+      {
+        "label": "MDN: HTTP caching",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching"
+      }
+    ]
+  },
+  {
+    "id": "react-scenario-questions",
+    "title": "React scenario-based questions",
+    "category": "React",
+    "area": "Frameworks",
+    "priority": "high",
+    "tags": [
+      "react"
+    ],
+    "note": "notes/react/scenario-questions.md",
+    "resources": [
+      {
+        "label": "react.dev: memo",
+        "url": "https://react.dev/reference/react/memo"
+      },
+      {
+        "label": "react.dev: useDeferredValue",
+        "url": "https://react.dev/reference/react/useDeferredValue"
+      },
+      {
+        "label": "web.dev: Virtualize large lists with react-window",
+        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
+      },
+      {
+        "label": "web.dev: Optimize Largest Contentful Paint",
+        "url": "https://web.dev/articles/optimize-lcp"
+      }
+    ]
+  },
+  {
     "id": "react-virtual-dom-reconciliation",
     "title": "Virtual DOM and reconciliation",
     "category": "React",
