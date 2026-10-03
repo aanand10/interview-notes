@@ -1,75 +1,4415 @@
 [
   {
+    "id": "js-var-let-const",
+    "title": "var, let, const",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/var-let-const.md",
+    "resources": [
+      {
+        "label": "MDN: var",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+      },
+      {
+        "label": "MDN: let",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+      },
+      {
+        "label": "MDN: const",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+      },
+      {
+        "label": "javascript.info: The old \"var\"",
+        "url": "https://javascript.info/var"
+      }
+    ]
+  },
+  {
+    "id": "js-hoisting-and-tdz",
+    "title": "Hoisting and TDZ",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/hoisting-and-tdz.md",
+    "resources": [
+      {
+        "label": "MDN: Hoisting",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting"
+      },
+      {
+        "label": "MDN: let and the TDZ",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz"
+      },
+      {
+        "label": "MDN: function declaration",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function"
+      },
+      {
+        "label": "javascript.info: The old \"var\"",
+        "url": "https://javascript.info/var"
+      }
+    ]
+  },
+  {
+    "id": "js-scope-and-scope-chain",
+    "title": "Scope and scope chain",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/scope-and-scope-chain.md",
+    "resources": [
+      {
+        "label": "MDN: Scope",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+      },
+      {
+        "label": "javascript.info: Variable scope, closure",
+        "url": "https://javascript.info/closure"
+      },
+      {
+        "label": "MDN: block statement",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block"
+      },
+      {
+        "label": "MDN: Strict mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+      }
+    ]
+  },
+  {
     "id": "js-closures",
     "title": "Closures",
-    "category": "JavaScript",
+    "category": "JavaScript core",
     "priority": "high",
-    "tags": ["fundamentals", "scope"],
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
     "note": "notes/javascript/closures.md",
     "resources": [
-      { "label": "javascript.info: Closures", "url": "https://javascript.info/closure" },
-      { "label": "MDN: Closures", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures" }
+      {
+        "label": "MDN: Closures",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+      },
+      {
+        "label": "javascript.info: Variable scope, closure",
+        "url": "https://javascript.info/closure"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding",
+        "url": "https://javascript.info/call-apply-decorators"
+      },
+      {
+        "label": "MDN: Memory management",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_management"
+      }
+    ]
+  },
+  {
+    "id": "js-this-keyword",
+    "title": "`this` keyword",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/this-keyword.md",
+    "resources": [
+      {
+        "label": "MDN: this",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
+      },
+      {
+        "label": "javascript.info: Object methods, \"this\"",
+        "url": "https://javascript.info/object-methods"
+      },
+      {
+        "label": "javascript.info: Function binding",
+        "url": "https://javascript.info/bind"
+      },
+      {
+        "label": "MDN: Arrow functions",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+      }
+    ]
+  },
+  {
+    "id": "js-call-apply-bind",
+    "title": "call, apply, bind",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/call-apply-bind.md",
+    "resources": [
+      {
+        "label": "MDN: Function.prototype.bind",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+      },
+      {
+        "label": "MDN: Function.prototype.call",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+      },
+      {
+        "label": "MDN: Function.prototype.apply",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding, call/apply",
+        "url": "https://javascript.info/call-apply-decorators"
+      }
+    ]
+  },
+  {
+    "id": "js-arrow-functions",
+    "title": "Arrow functions",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/arrow-functions.md",
+    "resources": [
+      {
+        "label": "MDN: Arrow function expressions",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
+      },
+      {
+        "label": "javascript.info: Arrow functions revisited",
+        "url": "https://javascript.info/arrow-functions"
+      },
+      {
+        "label": "javascript.info: Arrow functions, the basics",
+        "url": "https://javascript.info/arrow-functions-basics"
+      },
+      {
+        "label": "MDN: arguments",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments"
+      }
+    ]
+  },
+  {
+    "id": "js-prototypes-and-inheritance",
+    "title": "Prototypes and inheritance",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/prototypes-and-inheritance.md",
+    "resources": [
+      {
+        "label": "MDN: Inheritance and the prototype chain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+      },
+      {
+        "label": "javascript.info: Prototypal inheritance",
+        "url": "https://javascript.info/prototype-inheritance"
+      },
+      {
+        "label": "javascript.info: F.prototype",
+        "url": "https://javascript.info/function-prototype"
+      },
+      {
+        "label": "MDN: new operator",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"
+      }
+    ]
+  },
+  {
+    "id": "js-es6-classes",
+    "title": "ES6 classes",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/es6-classes.md",
+    "resources": [
+      {
+        "label": "MDN: Classes",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"
+      },
+      {
+        "label": "javascript.info: Class basic syntax",
+        "url": "https://javascript.info/class"
+      },
+      {
+        "label": "javascript.info: Class inheritance",
+        "url": "https://javascript.info/class-inheritance"
+      },
+      {
+        "label": "MDN: Private properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties"
+      }
+    ]
+  },
+  {
+    "id": "js-currying",
+    "title": "Currying",
+    "category": "JavaScript core",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/currying.md",
+    "resources": [
+      {
+        "label": "javascript.info: Currying",
+        "url": "https://javascript.info/currying-partials"
+      },
+      {
+        "label": "MDN: Function.length",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length"
+      },
+      {
+        "label": "MDN: Function.prototype.bind",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+      },
+      {
+        "label": "MDN: Closures",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+      }
+    ]
+  },
+  {
+    "id": "js-higher-order-functions",
+    "title": "Higher-order functions",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/higher-order-functions.md",
+    "resources": [
+      {
+        "label": "MDN: Array.prototype.map",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+      },
+      {
+        "label": "MDN: Array.prototype.reduce",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding",
+        "url": "https://javascript.info/call-apply-decorators"
+      },
+      {
+        "label": "MDN: First-class function",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function"
+      }
+    ]
+  },
+  {
+    "id": "js-equality-and-coercion",
+    "title": "Equality and coercion",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/equality-and-coercion.md",
+    "resources": [
+      {
+        "label": "MDN: Equality comparisons and sameness",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness"
+      },
+      {
+        "label": "MDN: Equality (==)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality"
+      },
+      {
+        "label": "javascript.info: Type conversions",
+        "url": "https://javascript.info/type-conversions"
+      },
+      {
+        "label": "javascript.info: Comparisons",
+        "url": "https://javascript.info/comparison"
+      }
+    ]
+  },
+  {
+    "id": "js-data-types",
+    "title": "Data types",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/data-types.md",
+    "resources": [
+      {
+        "label": "MDN: JavaScript data types and data structures",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
+      },
+      {
+        "label": "MDN: typeof",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+      },
+      {
+        "label": "javascript.info: Data types",
+        "url": "https://javascript.info/types"
+      },
+      {
+        "label": "MDN: Array.isArray",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+      }
+    ]
+  },
+  {
+    "id": "js-objects",
+    "title": "Objects",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/objects.md",
+    "resources": [
+      {
+        "label": "javascript.info: Object references and copying",
+        "url": "https://javascript.info/object-copy"
+      },
+      {
+        "label": "MDN: structuredClone",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/structuredClone"
+      },
+      {
+        "label": "web.dev: Deep-copying in JavaScript using structuredClone",
+        "url": "https://web.dev/articles/structured-clone"
+      },
+      {
+        "label": "javascript.info: Property flags and descriptors",
+        "url": "https://javascript.info/property-descriptors"
+      }
+    ]
+  },
+  {
+    "id": "js-arrays",
+    "title": "Arrays",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/arrays.md",
+    "resources": [
+      {
+        "label": "javascript.info: Array methods",
+        "url": "https://javascript.info/array-methods"
+      },
+      {
+        "label": "MDN: Array.prototype.sort",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+      },
+      {
+        "label": "MDN: Array.prototype.splice",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+      },
+      {
+        "label": "MDN: Object.groupBy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy"
+      }
+    ]
+  },
+  {
+    "id": "js-modern-syntax",
+    "title": "Modern syntax",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/modern-syntax.md",
+    "resources": [
+      {
+        "label": "javascript.info: Destructuring assignment",
+        "url": "https://javascript.info/destructuring-assignment"
+      },
+      {
+        "label": "javascript.info: Rest parameters and spread syntax",
+        "url": "https://javascript.info/rest-parameters-spread"
+      },
+      {
+        "label": "javascript.info: Optional chaining",
+        "url": "https://javascript.info/optional-chaining"
+      },
+      {
+        "label": "javascript.info: Nullish coalescing operator",
+        "url": "https://javascript.info/nullish-coalescing-operator"
+      }
+    ]
+  },
+  {
+    "id": "js-error-handling",
+    "title": "Error handling",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/error-handling.md",
+    "resources": [
+      {
+        "label": "javascript.info: Error handling, try...catch",
+        "url": "https://javascript.info/try-catch"
+      },
+      {
+        "label": "javascript.info: Custom errors",
+        "url": "https://javascript.info/custom-errors"
+      },
+      {
+        "label": "javascript.info: Error handling with promises",
+        "url": "https://javascript.info/promise-error-handling"
+      },
+      {
+        "label": "MDN: Error",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error"
+      }
+    ]
+  },
+  {
+    "id": "js-modules",
+    "title": "Modules",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/modules.md",
+    "resources": [
+      {
+        "label": "MDN: JavaScript modules guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+      },
+      {
+        "label": "javascript.info: Export and Import",
+        "url": "https://javascript.info/import-export"
+      },
+      {
+        "label": "javascript.info: Dynamic imports",
+        "url": "https://javascript.info/modules-dynamic-imports"
+      },
+      {
+        "label": "MDN: Tree shaking",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking"
+      }
+    ]
+  },
+  {
+    "id": "js-map-set-weakmap-weakset",
+    "title": "Map, Set, WeakMap, WeakSet",
+    "category": "JavaScript core",
+    "priority": "medium",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/map-set-weakmap-weakset.md",
+    "resources": [
+      {
+        "label": "javascript.info: Map and Set",
+        "url": "https://javascript.info/map-set"
+      },
+      {
+        "label": "javascript.info: WeakMap and WeakSet",
+        "url": "https://javascript.info/weakmap-weakset"
+      },
+      {
+        "label": "MDN: Map",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map"
+      },
+      {
+        "label": "MDN: WeakMap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap"
+      }
+    ]
+  },
+  {
+    "id": "js-iife-and-strict-mode",
+    "title": "IIFE and strict mode",
+    "category": "JavaScript core",
+    "priority": "low",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/iife-and-strict-mode.md",
+    "resources": [
+      {
+        "label": "MDN: IIFE",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+      },
+      {
+        "label": "MDN: Strict mode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+      },
+      {
+        "label": "javascript.info: The modern mode, \"use strict\"",
+        "url": "https://javascript.info/strict-mode"
+      }
+    ]
+  },
+  {
+    "id": "js-generators-and-iterators",
+    "title": "Generators and iterators",
+    "category": "JavaScript core",
+    "priority": "low",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/generators-and-iterators.md",
+    "resources": [
+      {
+        "label": "javascript.info: Generators",
+        "url": "https://javascript.info/generators"
+      },
+      {
+        "label": "javascript.info: Iterables",
+        "url": "https://javascript.info/iterable"
+      },
+      {
+        "label": "MDN: Iteration protocols",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+      },
+      {
+        "label": "javascript.info: Async iteration and generators",
+        "url": "https://javascript.info/async-iterators-generators"
+      }
+    ]
+  },
+  {
+    "id": "js-proxy-and-reflect",
+    "title": "Proxy and Reflect",
+    "category": "JavaScript core",
+    "priority": "low",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/javascript/proxy-and-reflect.md",
+    "resources": [
+      {
+        "label": "javascript.info: Proxy and Reflect",
+        "url": "https://javascript.info/proxy"
+      },
+      {
+        "label": "MDN: Proxy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+      },
+      {
+        "label": "Svelte docs: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
     ]
   },
   {
     "id": "js-event-loop",
-    "title": "Event Loop",
-    "category": "JavaScript",
+    "title": "Event loop",
+    "category": "Async JavaScript",
     "priority": "high",
-    "tags": ["fundamentals", "async"],
-    "note": "notes/javascript/event-loop.md",
-    "resources": [
-      { "label": "javascript.info: Event loop", "url": "https://javascript.info/event-loop" }
-    ]
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-microtasks-vs-macrotasks",
+    "title": "Microtasks vs macrotasks",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
   },
   {
     "id": "js-promises",
-    "title": "Promises & async/await",
-    "category": "JavaScript",
-    "priority": "medium",
-    "tags": ["async"],
-    "resources": [
-      { "label": "javascript.info: Promises", "url": "https://javascript.info/promise-basics" }
-    ]
-  },
-  {
-    "id": "react-reconciliation",
-    "title": "Reconciliation & keys",
-    "category": "React",
-    "priority": "medium",
-    "tags": ["rendering"],
-    "note": "notes/react/reconciliation.md",
-    "resources": [
-      { "label": "react.dev: Preserving and resetting state", "url": "https://react.dev/learn/preserving-and-resetting-state" }
-    ]
-  },
-  {
-    "id": "react-hooks-rules",
-    "title": "Rules of Hooks",
-    "category": "React",
-    "priority": "low",
-    "tags": ["fundamentals"],
-    "resources": [
-      { "label": "react.dev: Rules of Hooks", "url": "https://react.dev/reference/rules/rules-of-hooks" }
-    ]
-  },
-  {
-    "id": "sd-caching",
-    "title": "Caching strategies",
-    "category": "System Design",
+    "title": "Promises",
+    "category": "Async JavaScript",
     "priority": "high",
-    "tags": ["scalability"],
-    "note": "notes/system-design/caching.md",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-async-await",
+    "title": "async/await",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-promise-combinators",
+    "title": "Promise combinators",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-sequential-vs-parallel",
+    "title": "Sequential vs parallel",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-fetch",
+    "title": "fetch",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-abortcontroller-and-timeouts",
+    "title": "AbortController and timeouts",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-race-conditions",
+    "title": "Race conditions",
+    "category": "Async JavaScript",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-retry-with-backoff",
+    "title": "Retry with backoff",
+    "category": "Async JavaScript",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-concurrency-limit",
+    "title": "Concurrency limit",
+    "category": "Async JavaScript",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-callbacks",
+    "title": "Callbacks",
+    "category": "Async JavaScript",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-timers",
+    "title": "Timers",
+    "category": "Async JavaScript",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-unhandled-rejections",
+    "title": "Unhandled rejections",
+    "category": "Async JavaScript",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "async-async-iteration",
+    "title": "Async iteration",
+    "category": "Async JavaScript",
+    "priority": "low",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-array-reduce",
+    "title": "`Array.prototype.reduce`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/polyfills/array-reduce.md",
+    "resources": [
+      {
+        "label": "MDN: Array.prototype.reduce",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+      },
+      {
+        "label": "MDN: Sparse arrays (Indexed collections)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections"
+      },
+      {
+        "label": "javascript.info: Array methods",
+        "url": "https://javascript.info/array-methods"
+      },
+      {
+        "label": "LeetCode 2626: Array Reduce Transformation",
+        "url": "https://leetcode.com/problems/array-reduce-transformation/"
+      }
+    ]
+  },
+  {
+    "id": "poly-array-map-filter-foreach",
+    "title": "`Array.prototype.map` / `filter` / `forEach`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/polyfills/array-map-filter-foreach.md",
+    "resources": [
+      {
+        "label": "MDN: Array.prototype.map",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+      },
+      {
+        "label": "MDN: Array.prototype.filter",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+      },
+      {
+        "label": "MDN: Array.prototype.forEach",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+      },
+      {
+        "label": "LeetCode 2635: Apply Transform Over Each Element",
+        "url": "https://leetcode.com/problems/apply-transform-over-each-element-in-array/"
+      }
+    ]
+  },
+  {
+    "id": "poly-function-bind",
+    "title": "`Function.prototype.bind`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/polyfills/function-bind.md",
+    "resources": [
+      {
+        "label": "MDN: Function.prototype.bind",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+      },
+      {
+        "label": "MDN: Function.prototype.call",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+      },
+      {
+        "label": "javascript.info: Function binding",
+        "url": "https://javascript.info/bind"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding, call/apply",
+        "url": "https://javascript.info/call-apply-decorators"
+      }
+    ]
+  },
+  {
+    "id": "poly-debounce",
+    "title": "`debounce`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/polyfills/debounce.md",
+    "resources": [
+      {
+        "label": "MDN Glossary: Debounce",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Debounce"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding",
+        "url": "https://javascript.info/call-apply-decorators"
+      },
+      {
+        "label": "MDN: setTimeout",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout"
+      },
+      {
+        "label": "LeetCode 2627: Debounce",
+        "url": "https://leetcode.com/problems/debounce/"
+      }
+    ]
+  },
+  {
+    "id": "poly-throttle",
+    "title": "`throttle`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/polyfills/throttle.md",
+    "resources": [
+      {
+        "label": "MDN Glossary: Throttle",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Throttle"
+      },
+      {
+        "label": "MDN Glossary: Debounce",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Debounce"
+      },
+      {
+        "label": "javascript.info: Decorators and forwarding",
+        "url": "https://javascript.info/call-apply-decorators"
+      },
+      {
+        "label": "MDN: requestAnimationFrame",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      }
+    ]
+  },
+  {
+    "id": "poly-promise-all",
+    "title": "`Promise.all`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-curry-fn",
+    "title": "`curry(fn)`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-fetchwithtimeout",
+    "title": "`fetchWithTimeout`",
+    "category": "Polyfills",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-promise-allsettled-race-any",
+    "title": "`Promise.allSettled` / `race` / `any`",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-memoize",
+    "title": "`memoize`",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-deepclone",
+    "title": "`deepClone`",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-deep-equal",
+    "title": "Deep equal",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-flatten-array-object",
+    "title": "`flatten` array / object",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-event-emitter",
+    "title": "Event emitter",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-compose-pipe",
+    "title": "`compose` / `pipe`",
+    "category": "Polyfills",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-once",
+    "title": "`once`",
+    "category": "Polyfills",
+    "priority": "low",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-promise-basic",
+    "title": "`Promise` (basic)",
+    "category": "Polyfills",
+    "priority": "low",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "poly-setinterval-using-settimeout",
+    "title": "`setInterval` using `setTimeout`",
+    "category": "Polyfills",
+    "priority": "low",
+    "tags": [
+      "round-1"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-interface-vs-type",
+    "title": "interface vs type",
+    "category": "TypeScript",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": "notes/typescript/interface-vs-type.md",
+    "resources": [
+      {
+        "label": "TS Handbook: Differences between type aliases and interfaces",
+        "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+      },
+      {
+        "label": "TS Handbook: Object types",
+        "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+      },
+      {
+        "label": "TS Handbook: Declaration merging",
+        "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html"
+      }
+    ]
+  },
+  {
+    "id": "ts-generics",
+    "title": "Generics",
+    "category": "TypeScript",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": "notes/typescript/generics.md",
+    "resources": [
+      {
+        "label": "TS Handbook: Generics",
+        "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+      },
+      {
+        "label": "TS Handbook: keyof type operator",
+        "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
+      },
+      {
+        "label": "TS Handbook: Indexed access types",
+        "url": "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html"
+      },
+      {
+        "label": "Svelte docs: TypeScript (generic components)",
+        "url": "https://svelte.dev/docs/svelte/typescript"
+      }
+    ]
+  },
+  {
+    "id": "ts-utility-types",
+    "title": "Utility types",
+    "category": "TypeScript",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-unknown-vs-any-vs-never",
+    "title": "unknown vs any vs never",
+    "category": "TypeScript",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-union-and-narrowing",
+    "title": "Union and narrowing",
+    "category": "TypeScript",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-typing-components",
+    "title": "Typing components",
+    "category": "TypeScript",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-typing-api-responses",
+    "title": "Typing API responses",
+    "category": "TypeScript",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-as-const-literal-types",
+    "title": "`as const`, literal types",
+    "category": "TypeScript",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-mapped-and-conditional-types",
+    "title": "Mapped and conditional types",
+    "category": "TypeScript",
+    "priority": "low",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "ts-tsconfig-strict-mode",
+    "title": "tsconfig strict mode",
+    "category": "TypeScript",
+    "priority": "low",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-how-svelte-works",
+    "title": "How Svelte works",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/svelte/how-svelte-works.md",
+    "resources": [
+      {
+        "label": "Svelte docs: Overview",
+        "url": "https://svelte.dev/docs/svelte/overview"
+      },
+      {
+        "label": "Virtual DOM is pure overhead",
+        "url": "https://svelte.dev/blog/virtual-dom-is-pure-overhead"
+      },
+      {
+        "label": "Introducing runes",
+        "url": "https://svelte.dev/blog/runes"
+      },
+      {
+        "label": "Svelte playground",
+        "url": "https://svelte.dev/playground"
+      }
+    ]
+  },
+  {
+    "id": "svelte-state",
+    "title": "`$state`",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/svelte/state.md",
+    "resources": [
+      {
+        "label": "Svelte docs: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      },
+      {
+        "label": "Tutorial: Deep state",
+        "url": "https://svelte.dev/tutorial/svelte/deep-state"
+      },
+      {
+        "label": "svelte/reactivity",
+        "url": "https://svelte.dev/docs/svelte/svelte-reactivity"
+      },
+      {
+        "label": "MDN: Proxy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"
+      }
+    ]
+  },
+  {
+    "id": "svelte-derived",
+    "title": "`$derived`",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/svelte/derived.md",
+    "resources": [
+      {
+        "label": "Svelte docs: $derived",
+        "url": "https://svelte.dev/docs/svelte/$derived"
+      },
+      {
+        "label": "Tutorial: Derived state",
+        "url": "https://svelte.dev/tutorial/svelte/derived-state"
+      },
+      {
+        "label": "Svelte docs: When not to use $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      }
+    ]
+  },
+  {
+    "id": "svelte-effect",
+    "title": "`$effect`",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-props-and-bindable",
+    "title": "`$props` and `$bindable`",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-svelte-4-reactivity",
+    "title": "Svelte 4 reactivity",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-svelte-4-vs-5",
+    "title": "Svelte 4 vs 5",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-stores",
+    "title": "Stores",
+    "category": "Svelte",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-template-syntax",
+    "title": "Template syntax",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-snippets-vs-slots",
+    "title": "Snippets vs slots",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-context-api",
+    "title": "Context API",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-lifecycle",
+    "title": "Lifecycle",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-bindings",
+    "title": "Bindings",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-actions-use",
+    "title": "Actions (`use:`)",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-scoped-styles",
+    "title": "Scoped styles",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-events",
+    "title": "Events",
+    "category": "Svelte",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-transitions-and-animations",
+    "title": "Transitions and animations",
+    "category": "Svelte",
+    "priority": "low",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "svelte-special-elements",
+    "title": "Special elements",
+    "category": "Svelte",
+    "priority": "low",
+    "tags": [
+      "round-2"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "kit-routing",
+    "title": "Routing",
+    "category": "SvelteKit & SolidJS",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/routing.md",
+    "resources": [
+      {
+        "label": "SvelteKit docs: Routing",
+        "url": "https://svelte.dev/docs/kit/routing"
+      },
+      {
+        "label": "SvelteKit docs: Advanced routing",
+        "url": "https://svelte.dev/docs/kit/advanced-routing"
+      },
+      {
+        "label": "Tutorial: Optional params",
+        "url": "https://svelte.dev/tutorial/kit/optional-params"
+      },
+      {
+        "label": "Tutorial: Route groups",
+        "url": "https://svelte.dev/tutorial/kit/route-groups"
+      }
+    ]
+  },
+  {
+    "id": "kit-data-loading",
+    "title": "Data loading",
+    "category": "SvelteKit & SolidJS",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/data-loading.md",
+    "resources": [
+      {
+        "label": "SvelteKit docs: Loading data",
+        "url": "https://svelte.dev/docs/kit/load"
+      },
+      {
+        "label": "Tutorial: Invalidation",
+        "url": "https://svelte.dev/tutorial/kit/invalidation"
+      },
+      {
+        "label": "Tutorial: Custom dependencies",
+        "url": "https://svelte.dev/tutorial/kit/custom-dependencies"
+      },
+      {
+        "label": "SvelteKit docs: $app/navigation",
+        "url": "https://svelte.dev/docs/kit/$app-navigation"
+      }
+    ]
+  },
+  {
+    "id": "kit-rendering-modes",
+    "title": "Rendering modes",
+    "category": "SvelteKit & SolidJS",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/rendering-modes.md",
+    "resources": [
+      {
+        "label": "SvelteKit docs: Page options",
+        "url": "https://svelte.dev/docs/kit/page-options"
+      },
+      {
+        "label": "SvelteKit docs: Glossary",
+        "url": "https://svelte.dev/docs/kit/glossary"
+      },
+      {
+        "label": "web.dev: Rendering on the Web",
+        "url": "https://web.dev/articles/rendering-on-the-web"
+      },
+      {
+        "label": "Tutorial: ssr",
+        "url": "https://svelte.dev/tutorial/kit/ssr"
+      }
+    ]
+  },
+  {
+    "id": "kit-form-actions",
+    "title": "Form actions",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/form-actions.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Form actions",
+        "url": "https://svelte.dev/docs/kit/form-actions"
+      },
+      {
+        "label": "SvelteKit: $app/forms",
+        "url": "https://svelte.dev/docs/kit/$app-forms"
+      },
+      {
+        "label": "MDN: Progressive enhancement",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement"
+      }
+    ]
+  },
+  {
+    "id": "kit-hooks",
+    "title": "Hooks",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/hooks.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Hooks",
+        "url": "https://svelte.dev/docs/kit/hooks"
+      },
+      {
+        "label": "SvelteKit: Errors",
+        "url": "https://svelte.dev/docs/kit/errors"
+      },
+      {
+        "label": "OWASP: HTTP Headers Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html"
+      }
+    ]
+  },
+  {
+    "id": "kit-errors-and-redirects",
+    "title": "Errors and redirects",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/errors-and-redirects.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Errors",
+        "url": "https://svelte.dev/docs/kit/errors"
+      },
+      {
+        "label": "SvelteKit: Routing (+error)",
+        "url": "https://svelte.dev/docs/kit/routing"
+      },
+      {
+        "label": "MDN: HTTP redirections",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections"
+      }
+    ]
+  },
+  {
+    "id": "kit-api-routes",
+    "title": "API routes",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/api-routes.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Routing (+server)",
+        "url": "https://svelte.dev/docs/kit/routing"
+      },
+      {
+        "label": "SvelteKit: @sveltejs/kit reference",
+        "url": "https://svelte.dev/docs/kit/@sveltejs-kit"
+      },
+      {
+        "label": "MDN: Response",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Response"
+      }
+    ]
+  },
+  {
+    "id": "kit-env-variables",
+    "title": "Env variables",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/env-variables.md",
+    "resources": [
+      {
+        "label": "SvelteKit: $env/static/private",
+        "url": "https://svelte.dev/docs/kit/$env-static-private"
+      },
+      {
+        "label": "SvelteKit: $env/dynamic/private",
+        "url": "https://svelte.dev/docs/kit/$env-dynamic-private"
+      },
+      {
+        "label": "SvelteKit: Server-only modules",
+        "url": "https://svelte.dev/docs/kit/server-only-modules"
+      }
+    ]
+  },
+  {
+    "id": "kit-adapters-and-deployment",
+    "title": "Adapters and deployment",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/adapters-and-deployment.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Adapters",
+        "url": "https://svelte.dev/docs/kit/adapters"
+      },
+      {
+        "label": "SvelteKit: Node servers",
+        "url": "https://svelte.dev/docs/kit/adapter-node"
+      },
+      {
+        "label": "SvelteKit: Static site generation",
+        "url": "https://svelte.dev/docs/kit/adapter-static"
+      },
+      {
+        "label": "SvelteKit: Single-page apps",
+        "url": "https://svelte.dev/docs/kit/single-page-apps"
+      }
+    ]
+  },
+  {
+    "id": "kit-service-worker-in-sveltekit",
+    "title": "Service worker in SvelteKit",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/service-worker-in-sveltekit.md",
+    "resources": [
+      {
+        "label": "SvelteKit: Service workers",
+        "url": "https://svelte.dev/docs/kit/service-workers"
+      },
+      {
+        "label": "SvelteKit: $service-worker",
+        "url": "https://svelte.dev/docs/kit/$service-worker"
+      },
+      {
+        "label": "MDN: Service Worker API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API"
+      },
+      {
+        "label": "web.dev: Service workers",
+        "url": "https://web.dev/learn/pwa/service-workers"
+      }
+    ]
+  },
+  {
+    "id": "kit-navigation",
+    "title": "Navigation",
+    "category": "SvelteKit & SolidJS",
+    "priority": "low",
+    "tags": [
+      "round-2",
+      "sveltekit"
+    ],
+    "note": "notes/sveltekit-solid/navigation.md",
+    "resources": [
+      {
+        "label": "SvelteKit: $app/navigation",
+        "url": "https://svelte.dev/docs/kit/$app-navigation"
+      },
+      {
+        "label": "SvelteKit: Link options",
+        "url": "https://svelte.dev/docs/kit/link-options"
+      },
+      {
+        "label": "SvelteKit: $app/state",
+        "url": "https://svelte.dev/docs/kit/$app-state"
+      }
+    ]
+  },
+  {
+    "id": "kit-signals",
+    "title": "Signals",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "solidjs"
+    ],
+    "note": "notes/sveltekit-solid/signals.md",
+    "resources": [
+      {
+        "label": "Solid: Signals",
+        "url": "https://docs.solidjs.com/concepts/signals"
+      },
+      {
+        "label": "Solid: Memos",
+        "url": "https://docs.solidjs.com/concepts/derived-values/memos"
+      },
+      {
+        "label": "Solid: Effects",
+        "url": "https://docs.solidjs.com/concepts/effects"
+      },
+      {
+        "label": "Svelte: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
+    ]
+  },
+  {
+    "id": "kit-components-run-once",
+    "title": "Components run once",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "solidjs"
+    ],
+    "note": "notes/sveltekit-solid/components-run-once.md",
+    "resources": [
+      {
+        "label": "Solid: Props",
+        "url": "https://docs.solidjs.com/concepts/components/props"
+      },
+      {
+        "label": "Solid: Intro to reactivity",
+        "url": "https://docs.solidjs.com/concepts/intro-to-reactivity"
+      },
+      {
+        "label": "Svelte: $props",
+        "url": "https://svelte.dev/docs/svelte/$props"
+      }
+    ]
+  },
+  {
+    "id": "kit-solid-vs-svelte-vs-react",
+    "title": "Solid vs Svelte vs React",
+    "category": "SvelteKit & SolidJS",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "solidjs"
+    ],
+    "note": "notes/sveltekit-solid/solid-vs-svelte-vs-react.md",
+    "resources": [
+      {
+        "label": "Solid: Intro to reactivity",
+        "url": "https://docs.solidjs.com/concepts/intro-to-reactivity"
+      },
+      {
+        "label": "Svelte: $derived",
+        "url": "https://svelte.dev/docs/svelte/$derived"
+      },
+      {
+        "label": "Svelte: $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      },
+      {
+        "label": "Svelte blog: Introducing runes",
+        "url": "https://svelte.dev/blog/runes"
+      }
+    ]
+  },
+  {
+    "id": "kit-control-flow",
+    "title": "Control flow",
+    "category": "SvelteKit & SolidJS",
+    "priority": "low",
+    "tags": [
+      "round-2",
+      "solidjs"
+    ],
+    "note": "notes/sveltekit-solid/control-flow.md",
+    "resources": [
+      {
+        "label": "Solid: Conditional rendering",
+        "url": "https://docs.solidjs.com/concepts/control-flow/conditional-rendering"
+      },
+      {
+        "label": "Solid: List rendering",
+        "url": "https://docs.solidjs.com/concepts/control-flow/list-rendering"
+      },
+      {
+        "label": "Solid: Stores",
+        "url": "https://docs.solidjs.com/concepts/stores"
+      }
+    ]
+  },
+  {
+    "id": "browser-rendering-pipeline",
+    "title": "Rendering pipeline",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/rendering-pipeline.md",
+    "resources": [
+      {
+        "label": "web.dev: Critical rendering path",
+        "url": "https://web.dev/articles/critical-rendering-path"
+      },
+      {
+        "label": "web.dev: Render-blocking CSS",
+        "url": "https://web.dev/articles/critical-rendering-path/render-blocking-css"
+      },
+      {
+        "label": "MDN: How browsers work",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work"
+      },
+      {
+        "label": "Chrome: Inside look at a modern browser, part 3",
+        "url": "https://developer.chrome.com/blog/inside-browser-part3"
+      }
+    ]
+  },
+  {
+    "id": "browser-reflow-vs-repaint",
+    "title": "Reflow vs repaint",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/reflow-vs-repaint.md",
+    "resources": [
+      {
+        "label": "web.dev: Stick to compositor-only properties",
+        "url": "https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count"
+      },
+      {
+        "label": "web.dev: Rendering performance",
+        "url": "https://web.dev/articles/rendering-performance"
+      },
+      {
+        "label": "web.dev: How to create high-performance CSS animations",
+        "url": "https://web.dev/articles/animations-guide"
+      },
+      {
+        "label": "MDN: Reflow",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Reflow"
+      }
+    ]
+  },
+  {
+    "id": "browser-layout-thrashing",
+    "title": "Layout thrashing",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/layout-thrashing.md",
+    "resources": [
+      {
+        "label": "web.dev: Avoid large, complex layouts and layout thrashing",
+        "url": "https://web.dev/articles/avoid-large-complex-layouts-and-layout-thrashing"
+      },
+      {
+        "label": "MDN: requestAnimationFrame",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      },
+      {
+        "label": "MDN: getBoundingClientRect",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+      },
+      {
+        "label": "svelte.dev: bind",
+        "url": "https://svelte.dev/docs/svelte/bind"
+      }
+    ]
+  },
+  {
+    "id": "browser-garbage-collection",
+    "title": "Garbage collection",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/garbage-collection.md",
+    "resources": [
+      {
+        "label": "javascript.info: Garbage collection",
+        "url": "https://javascript.info/garbage-collection"
+      },
+      {
+        "label": "MDN: Memory management",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management"
+      },
+      {
+        "label": "V8 blog: Trash talk (Orinoco GC)",
+        "url": "https://v8.dev/blog/trash-talk"
+      },
+      {
+        "label": "MDN: WeakMap",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap"
+      }
+    ]
+  },
+  {
+    "id": "browser-memory-leaks",
+    "title": "Memory leaks",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/memory-leaks.md",
+    "resources": [
+      {
+        "label": "Chrome DevTools: Fix memory problems",
+        "url": "https://developer.chrome.com/docs/devtools/memory-problems"
+      },
+      {
+        "label": "Chrome DevTools: Heap snapshots",
+        "url": "https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots"
+      },
+      {
+        "label": "Chrome DevTools: Allocation timeline",
+        "url": "https://developer.chrome.com/docs/devtools/memory-problems/allocation-profiler"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      }
+    ]
+  },
+  {
+    "id": "browser-event-propagation",
+    "title": "Event propagation",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/event-propagation.md",
+    "resources": [
+      {
+        "label": "javascript.info: Bubbling and capturing",
+        "url": "https://javascript.info/bubbling-and-capturing"
+      },
+      {
+        "label": "MDN: Event bubbling",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling"
+      },
+      {
+        "label": "MDN: Event.currentTarget",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Event/currentTarget"
+      },
+      {
+        "label": "javascript.info: Browser default actions",
+        "url": "https://javascript.info/default-browser-action"
+      }
+    ]
+  },
+  {
+    "id": "browser-event-delegation",
+    "title": "Event delegation",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/event-delegation.md",
+    "resources": [
+      {
+        "label": "javascript.info: Event delegation",
+        "url": "https://javascript.info/event-delegation"
+      },
+      {
+        "label": "MDN: Element.closest()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/closest"
+      },
+      {
+        "label": "MDN: focusin event",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event"
+      },
+      {
+        "label": "svelte.dev: Basic markup (event delegation)",
+        "url": "https://svelte.dev/docs/svelte/basic-markup"
+      }
+    ]
+  },
+  {
+    "id": "browser-what-happens-when-you-type-a-url",
+    "title": "What happens when you type a URL",
+    "category": "Browser & DOM",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/what-happens-when-you-type-a-url.md",
+    "resources": [
+      {
+        "label": "MDN: How browsers work",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work"
+      },
+      {
+        "label": "MDN: Critical rendering path",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path"
+      },
+      {
+        "label": "web.dev: Critical rendering path",
+        "url": "https://web.dev/articles/critical-rendering-path"
+      },
+      {
+        "label": "MDN: An overview of HTTP",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+      }
+    ]
+  },
+  {
+    "id": "browser-script-loading",
+    "title": "Script loading",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/script-loading.md",
+    "resources": [
+      {
+        "label": "MDN: The script element",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+      },
+      {
+        "label": "javascript.info: Scripts async, defer",
+        "url": "https://javascript.info/script-async-defer"
+      },
+      {
+        "label": "MDN: rel=preload",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload"
+      },
+      {
+        "label": "web.dev: Preconnect and dns-prefetch",
+        "url": "https://web.dev/articles/preconnect-and-dns-prefetch"
+      }
+    ]
+  },
+  {
+    "id": "browser-dom-manipulation",
+    "title": "DOM manipulation",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/dom-manipulation.md",
+    "resources": [
+      {
+        "label": "MDN: DocumentFragment",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment"
+      },
+      {
+        "label": "MDN: innerHTML security considerations",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML"
+      },
+      {
+        "label": "javascript.info: Modifying the document",
+        "url": "https://javascript.info/modifying-document"
+      },
+      {
+        "label": "OWASP: XSS Prevention Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      }
+    ]
+  },
+  {
+    "id": "browser-observers",
+    "title": "Observers",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/observers.md",
+    "resources": [
+      {
+        "label": "MDN: Intersection Observer API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"
+      },
+      {
+        "label": "MDN: MutationObserver",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"
+      },
+      {
+        "label": "MDN: ResizeObserver",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver"
+      },
+      {
+        "label": "web.dev: Browser-level image lazy loading",
+        "url": "https://web.dev/articles/browser-level-image-lazy-loading"
+      }
+    ]
+  },
+  {
+    "id": "browser-passive-event-listeners",
+    "title": "Passive event listeners",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/passive-event-listeners.md",
+    "resources": [
+      {
+        "label": "MDN: addEventListener options (passive)",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"
+      },
+      {
+        "label": "MDN: touch-action",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action"
+      },
+      {
+        "label": "developer.chrome.com: Making touch scrolling fast by default",
+        "url": "https://developer.chrome.com/blog/scrolling-intervention"
+      }
+    ]
+  },
+  {
+    "id": "browser-requestanimationframe-requestidlecallback",
+    "title": "requestAnimationFrame / requestIdleCallback",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/requestanimationframe-requestidlecallback.md",
+    "resources": [
+      {
+        "label": "MDN: requestAnimationFrame",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      },
+      {
+        "label": "MDN: requestIdleCallback",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback"
+      },
+      {
+        "label": "javascript.info: Event loop",
+        "url": "https://javascript.info/event-loop"
+      },
+      {
+        "label": "web.dev: Optimize long tasks",
+        "url": "https://web.dev/articles/optimize-long-tasks"
+      }
+    ]
+  },
+  {
+    "id": "browser-browser-storage-overview",
+    "title": "Browser storage overview",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/browser-storage-overview.md",
+    "resources": [
+      {
+        "label": "MDN: Web Storage API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+      },
+      {
+        "label": "MDN: Using HTTP cookies",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"
+      },
+      {
+        "label": "MDN: IndexedDB API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"
+      },
+      {
+        "label": "web.dev: Storage for the web",
+        "url": "https://web.dev/articles/storage-for-the-web"
+      }
+    ]
+  },
+  {
+    "id": "browser-same-origin-policy",
+    "title": "Same-origin policy",
+    "category": "Browser & DOM",
+    "priority": "medium",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/same-origin-policy.md",
+    "resources": [
+      {
+        "label": "MDN: Same-origin policy",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy"
+      },
+      {
+        "label": "MDN: CORS",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"
+      },
+      {
+        "label": "javascript.info: Fetch Cross-Origin Requests",
+        "url": "https://javascript.info/fetch-crossorigin"
+      },
+      {
+        "label": "web.dev: Same-site and same-origin",
+        "url": "https://web.dev/articles/same-site-same-origin"
+      }
+    ]
+  },
+  {
+    "id": "browser-js-engine-basics",
+    "title": "JS engine basics",
+    "category": "Browser & DOM",
+    "priority": "low",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/js-engine-basics.md",
+    "resources": [
+      {
+        "label": "V8 docs",
+        "url": "https://v8.dev/docs"
+      },
+      {
+        "label": "V8 blog: Fast properties",
+        "url": "https://v8.dev/blog/fast-properties"
+      },
+      {
+        "label": "MDN: JavaScript execution model",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model"
+      }
+    ]
+  },
+  {
+    "id": "perf-how-to-approach-a-slow-app",
+    "title": "How to approach a slow app",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/how-to-approach-a-slow-app.md",
+    "resources": [
+      {
+        "label": "web.dev: Learn Performance",
+        "url": "https://web.dev/learn/performance"
+      },
+      {
+        "label": "Chrome DevTools: Analyze runtime performance",
+        "url": "https://developer.chrome.com/docs/devtools/performance"
+      },
+      {
+        "label": "Lighthouse overview",
+        "url": "https://developer.chrome.com/docs/lighthouse/overview"
+      },
+      {
+        "label": "web.dev: Why lab and field data differ",
+        "url": "https://web.dev/articles/lab-and-field-data-differences"
+      }
+    ]
+  },
+  {
+    "id": "perf-core-web-vitals",
+    "title": "Core Web Vitals",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/core-web-vitals.md",
+    "resources": [
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "web.dev: Optimize LCP",
+        "url": "https://web.dev/articles/optimize-lcp"
+      },
+      {
+        "label": "web.dev: Optimize INP",
+        "url": "https://web.dev/articles/optimize-inp"
+      },
+      {
+        "label": "web.dev: Optimize CLS",
+        "url": "https://web.dev/articles/optimize-cls"
+      }
+    ]
+  },
+  {
+    "id": "perf-bundle-optimisation",
+    "title": "Bundle optimisation",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/bundle-optimisation.md",
+    "resources": [
+      {
+        "label": "web.dev: Reduce JavaScript payloads with code splitting",
+        "url": "https://web.dev/articles/reduce-javascript-payloads-with-code-splitting"
+      },
+      {
+        "label": "web.dev: Reduce JavaScript payloads with tree shaking",
+        "url": "https://web.dev/articles/reduce-javascript-payloads-with-tree-shaking"
+      },
+      {
+        "label": "javascript.info: Dynamic imports",
+        "url": "https://javascript.info/modules-dynamic-imports"
+      },
+      {
+        "label": "SvelteKit: Performance",
+        "url": "https://svelte.dev/docs/kit/performance"
+      }
+    ]
+  },
+  {
+    "id": "perf-rendering-performance",
+    "title": "Rendering performance",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/rendering-performance.md",
+    "resources": [
+      {
+        "label": "Svelte docs: $state (including $state.raw)",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      },
+      {
+        "label": "Svelte docs: each blocks",
+        "url": "https://svelte.dev/docs/svelte/each"
+      },
+      {
+        "label": "Svelte docs: $derived",
+        "url": "https://svelte.dev/docs/svelte/$derived"
+      },
+      {
+        "label": "web.dev: Rendering performance",
+        "url": "https://web.dev/articles/rendering-performance"
+      }
+    ]
+  },
+  {
+    "id": "perf-large-lists-and-tables",
+    "title": "Large lists and tables",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/large-lists-and-tables.md",
+    "resources": [
+      {
+        "label": "web.dev: Virtualize large lists",
+        "url": "https://web.dev/articles/virtualize-long-lists-react-window"
+      },
+      {
+        "label": "web.dev: DOM size and interactivity",
+        "url": "https://web.dev/articles/dom-size-and-interactivity"
+      },
+      {
+        "label": "MDN: CSS contain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"
+      },
+      {
+        "label": "Svelte docs: $state.raw",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      }
+    ]
+  },
+  {
+    "id": "perf-real-time-data",
+    "title": "Real-time data",
+    "category": "Performance",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/real-time-data.md",
+    "resources": [
+      {
+        "label": "MDN: WebSocket API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket"
+      },
+      {
+        "label": "javascript.info: WebSocket",
+        "url": "https://javascript.info/websocket"
+      },
+      {
+        "label": "Svelte docs: svelte/reactivity (SvelteMap)",
+        "url": "https://svelte.dev/docs/svelte/svelte-reactivity"
+      },
+      {
+        "label": "web.dev: Optimize INP",
+        "url": "https://web.dev/articles/optimize-inp"
+      }
+    ]
+  },
+  {
+    "id": "perf-images-and-fonts",
+    "title": "Images and fonts",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/images-and-fonts.md",
+    "resources": [
+      {
+        "label": "MDN: Responsive images",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Responsive_images"
+      },
+      {
+        "label": "web.dev: Choose the right image format",
+        "url": "https://web.dev/articles/choose-the-right-image-format"
+      },
+      {
+        "label": "web.dev: Browser-level lazy loading",
+        "url": "https://web.dev/articles/browser-level-image-lazy-loading"
+      },
+      {
+        "label": "web.dev: Best practices for fonts",
+        "url": "https://web.dev/articles/font-best-practices"
+      }
+    ]
+  },
+  {
+    "id": "perf-caching",
+    "title": "Caching",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/caching.md",
+    "resources": [
+      {
+        "label": "MDN: HTTP caching",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"
+      },
+      {
+        "label": "web.dev: Prevent unnecessary network requests with the HTTP Cache",
+        "url": "https://web.dev/articles/http-cache"
+      },
+      {
+        "label": "Workbox: Caching strategies overview",
+        "url": "https://developer.chrome.com/docs/workbox/caching-strategies-overview"
+      },
+      {
+        "label": "SvelteKit: Service workers",
+        "url": "https://svelte.dev/docs/kit/service-workers"
+      }
+    ]
+  },
+  {
+    "id": "perf-network-optimisation",
+    "title": "Network optimisation",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/network-optimisation.md",
+    "resources": [
+      {
+        "label": "MDN: HTTP compression",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Compression"
+      },
+      {
+        "label": "web.dev: Establish network connections early",
+        "url": "https://web.dev/articles/preconnect-and-dns-prefetch"
+      },
+      {
+        "label": "web.dev: Prefetch resources",
+        "url": "https://web.dev/articles/link-prefetch"
+      },
+      {
+        "label": "SvelteKit: Link options",
+        "url": "https://svelte.dev/docs/kit/link-options"
+      }
+    ]
+  },
+  {
+    "id": "perf-main-thread-work",
+    "title": "Main thread work",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/main-thread-work.md",
+    "resources": [
+      {
+        "label": "web.dev: Optimize long tasks",
+        "url": "https://web.dev/articles/optimize-long-tasks"
+      },
+      {
+        "label": "MDN: Using Web Workers",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+      },
+      {
+        "label": "Chrome DevTools: Performance panel",
+        "url": "https://developer.chrome.com/docs/devtools/performance"
+      },
+      {
+        "label": "web.dev: Interaction to Next Paint",
+        "url": "https://web.dev/articles/inp"
+      }
+    ]
+  },
+  {
+    "id": "perf-css-performance",
+    "title": "CSS performance",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/css-performance.md",
+    "resources": [
+      {
+        "label": "web.dev: Rendering performance",
+        "url": "https://web.dev/articles/rendering-performance"
+      },
+      {
+        "label": "web.dev: content-visibility",
+        "url": "https://web.dev/articles/content-visibility"
+      },
+      {
+        "label": "MDN: contain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"
+      },
+      {
+        "label": "MDN: will-change",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/will-change"
+      }
+    ]
+  },
+  {
+    "id": "perf-low-end-devices",
+    "title": "Low-end devices",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/low-end-devices.md",
+    "resources": [
+      {
+        "label": "web.dev: Reduce JavaScript payloads with code splitting",
+        "url": "https://web.dev/articles/reduce-javascript-payloads-with-code-splitting"
+      },
+      {
+        "label": "Chrome DevTools: Performance panel",
+        "url": "https://developer.chrome.com/docs/devtools/performance"
+      },
+      {
+        "label": "MDN: prefers-reduced-motion",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
+      },
+      {
+        "label": "Chrome: Remote debug Android devices",
+        "url": "https://developer.chrome.com/docs/devtools/remote-debugging"
+      }
+    ]
+  },
+  {
+    "id": "perf-monitoring-performance-in-production",
+    "title": "Monitoring performance in production",
+    "category": "Performance",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/performance/monitoring-performance-in-production.md",
+    "resources": [
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "web.dev: Lab and field data differences",
+        "url": "https://web.dev/articles/lab-and-field-data-differences"
+      },
+      {
+        "label": "web-vitals library",
+        "url": "https://github.com/GoogleChrome/web-vitals"
+      },
+      {
+        "label": "web.dev: Performance budgets 101",
+        "url": "https://web.dev/articles/performance-budgets-101"
+      }
+    ]
+  },
+  {
+    "id": "pwa-what-is-a-pwa",
+    "title": "What is a PWA",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": "notes/pwa/what-is-a-pwa.md",
+    "resources": [
+      {
+        "label": "web.dev: Learn PWA",
+        "url": "https://web.dev/learn/pwa/"
+      },
+      {
+        "label": "MDN: What is a progressive web app?",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app"
+      },
+      {
+        "label": "MDN: Making PWAs installable",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable"
+      },
+      {
+        "label": "web.dev: Installation prompt",
+        "url": "https://web.dev/learn/pwa/installation-prompt"
+      }
+    ]
+  },
+  {
+    "id": "pwa-service-worker-lifecycle",
+    "title": "Service worker lifecycle",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": "notes/pwa/service-worker-lifecycle.md",
+    "resources": [
+      {
+        "label": "web.dev: The service worker lifecycle",
+        "url": "https://web.dev/articles/service-worker-lifecycle"
+      },
+      {
+        "label": "web.dev: Learn PWA - Update",
+        "url": "https://web.dev/learn/pwa/update"
+      },
+      {
+        "label": "Chrome for Developers: Handling service worker updates",
+        "url": "https://developer.chrome.com/docs/workbox/handling-service-worker-updates"
+      },
+      {
+        "label": "MDN: Using Service Workers",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"
+      }
+    ]
+  },
+  {
+    "id": "pwa-caching-strategies",
+    "title": "Caching strategies",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": "notes/pwa/caching-strategies.md",
+    "resources": [
+      {
+        "label": "web.dev: The Offline Cookbook",
+        "url": "https://web.dev/articles/offline-cookbook"
+      },
+      {
+        "label": "Chrome for Developers: Strategies for service worker caching",
+        "url": "https://developer.chrome.com/docs/workbox/caching-strategies-overview"
+      },
+      {
+        "label": "web.dev: Learn PWA - Serving",
+        "url": "https://web.dev/learn/pwa/serving"
+      },
+      {
+        "label": "MDN: PWA caching guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching"
+      }
+    ]
+  },
+  {
+    "id": "pwa-workbox",
+    "title": "Workbox",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": "notes/pwa/workbox.md",
+    "resources": [
+      {
+        "label": "Chrome for Developers: Workbox",
+        "url": "https://developer.chrome.com/docs/workbox"
+      },
+      {
+        "label": "workbox-precaching",
+        "url": "https://developer.chrome.com/docs/workbox/modules/workbox-precaching"
+      },
+      {
+        "label": "workbox-strategies",
+        "url": "https://developer.chrome.com/docs/workbox/modules/workbox-strategies"
+      },
+      {
+        "label": "workbox-expiration",
+        "url": "https://developer.chrome.com/docs/workbox/modules/workbox-expiration"
+      }
+    ]
+  },
+  {
+    "id": "pwa-offline-first-architecture",
+    "title": "Offline-first architecture",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": "notes/pwa/offline-first-architecture.md",
+    "resources": [
+      {
+        "label": "web.dev: Learn PWA - Offline data",
+        "url": "https://web.dev/learn/pwa/offline-data"
+      },
+      {
+        "label": "web.dev: The Offline Cookbook",
+        "url": "https://web.dev/articles/offline-cookbook"
+      },
+      {
+        "label": "MDN: Offline and background operation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation"
+      },
+      {
+        "label": "MDN: Navigator.onLine",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine"
+      }
+    ]
+  },
+  {
+    "id": "pwa-cache-versioning",
+    "title": "Cache versioning",
+    "category": "PWA & Workers",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-web-workers",
+    "title": "Web Workers",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-comlink",
+    "title": "Comlink",
+    "category": "PWA & Workers",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-service-worker-vs-web-worker",
+    "title": "Service Worker vs Web Worker",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-indexeddb",
+    "title": "IndexedDB",
+    "category": "PWA & Workers",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-cache-api",
+    "title": "Cache API",
+    "category": "PWA & Workers",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-storage-limits-and-eviction",
+    "title": "Storage limits and eviction",
+    "category": "PWA & Workers",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-push-notifications",
+    "title": "Push notifications",
+    "category": "PWA & Workers",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-geolocation-api",
+    "title": "Geolocation API",
+    "category": "PWA & Workers",
+    "priority": "low",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "pwa-background-sync",
+    "title": "Background sync",
+    "category": "PWA & Workers",
+    "priority": "low",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-what-a-webview-is",
+    "title": "What a WebView is",
+    "category": "Mobile web & WebViews",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-native-web-communication",
+    "title": "Native-web communication",
+    "category": "Mobile web & WebViews",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-ios-vs-android-differences",
+    "title": "iOS vs Android differences",
+    "category": "Mobile web & WebViews",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-memory-limits",
+    "title": "Memory limits",
+    "category": "Mobile web & WebViews",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-touch-interactions",
+    "title": "Touch interactions",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-viewport-and-keyboard",
+    "title": "Viewport and keyboard",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-safe-areas",
+    "title": "Safe areas",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-scrolling",
+    "title": "Scrolling",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-network-on-mobile",
+    "title": "Network on mobile",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-debugging-on-real-devices",
+    "title": "Debugging on real devices",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mobile-performance-on-low-end-android",
+    "title": "Performance on low-end Android",
+    "category": "Mobile web & WebViews",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "css-box-model",
+    "title": "Box model",
+    "category": "CSS & Tailwind",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/box-model.md",
+    "resources": [
+      {
+        "label": "MDN: The box model",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model"
+      },
+      {
+        "label": "MDN: box-sizing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+      },
+      {
+        "label": "MDN: Mastering margin collapsing",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing"
+      },
+      {
+        "label": "MDN: Block formatting context",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_display/Block_formatting_context"
+      }
+    ]
+  },
+  {
+    "id": "css-flexbox-vs-grid",
+    "title": "Flexbox vs Grid",
+    "category": "CSS & Tailwind",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/flexbox-vs-grid.md",
+    "resources": [
+      {
+        "label": "web.dev Learn CSS: Flexbox",
+        "url": "https://web.dev/learn/css/flexbox"
+      },
+      {
+        "label": "web.dev Learn CSS: Grid",
+        "url": "https://web.dev/learn/css/grid"
+      },
+      {
+        "label": "MDN: grid-template-areas",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas"
+      },
+      {
+        "label": "MDN: Relationship of grid to other layout methods",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods"
+      }
+    ]
+  },
+  {
+    "id": "css-positioning",
+    "title": "Positioning",
+    "category": "CSS & Tailwind",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/positioning.md",
+    "resources": [
+      {
+        "label": "MDN: position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
+      },
+      {
+        "label": "MDN: Positioning guide",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Positioning"
+      },
+      {
+        "label": "MDN: Containing block",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block"
+      },
+      {
+        "label": "MDN: inset",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset"
+      }
+    ]
+  },
+  {
+    "id": "css-responsive-design",
+    "title": "Responsive design",
+    "category": "CSS & Tailwind",
+    "priority": "high",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/responsive-design.md",
+    "resources": [
+      {
+        "label": "MDN: Responsive design",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design"
+      },
+      {
+        "label": "MDN: Using media queries",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries"
+      },
+      {
+        "label": "MDN: clamp()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp"
+      },
+      {
+        "label": "MDN: CSS length units",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length"
+      }
+    ]
+  },
+  {
+    "id": "css-specificity-and-cascade",
+    "title": "Specificity and cascade",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/specificity-and-cascade.md",
+    "resources": [
+      {
+        "label": "MDN: Specificity",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"
+      },
+      {
+        "label": "MDN: Handling conflicts",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts"
+      },
+      {
+        "label": "MDN: @layer",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@layer"
+      },
+      {
+        "label": "web.dev Learn CSS: The cascade",
+        "url": "https://web.dev/learn/css/the-cascade"
+      }
+    ]
+  },
+  {
+    "id": "css-stacking-context",
+    "title": "Stacking context",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/stacking-context.md",
+    "resources": [
+      {
+        "label": "MDN: Stacking context",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context"
+      },
+      {
+        "label": "MDN: z-index",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"
+      },
+      {
+        "label": "MDN: isolation",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/isolation"
+      },
+      {
+        "label": "MDN: Top layer",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Top_layer"
+      }
+    ]
+  },
+  {
+    "id": "css-centering",
+    "title": "Centering",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/centering.md",
+    "resources": [
+      {
+        "label": "MDN: Center an element",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element"
+      },
+      {
+        "label": "web.dev: Centering in CSS",
+        "url": "https://web.dev/articles/centering-in-css"
+      },
+      {
+        "label": "MDN: place-items",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items"
+      }
+    ]
+  },
+  {
+    "id": "css-css-performance",
+    "title": "CSS performance",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/css-performance.md",
+    "resources": [
+      {
+        "label": "web.dev: Stick to compositor-only properties",
+        "url": "https://web.dev/articles/stick-to-compositor-only-properties-and-manage-layer-count"
+      },
+      {
+        "label": "web.dev: Extract critical CSS",
+        "url": "https://web.dev/articles/extract-critical-css"
+      },
+      {
+        "label": "MDN: contain",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"
+      },
+      {
+        "label": "web.dev: content-visibility",
+        "url": "https://web.dev/articles/content-visibility"
+      }
+    ]
+  },
+  {
+    "id": "css-tailwind",
+    "title": "Tailwind",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/tailwind.md",
+    "resources": [
+      {
+        "label": "Tailwind: Theme variables",
+        "url": "https://tailwindcss.com/docs/theme"
+      },
+      {
+        "label": "Tailwind: Dark mode",
+        "url": "https://tailwindcss.com/docs/dark-mode"
+      },
+      {
+        "label": "Tailwind: Detecting classes in source files",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      },
+      {
+        "label": "Tailwind: Functions and directives",
+        "url": "https://tailwindcss.com/docs/functions-and-directives"
+      }
+    ]
+  },
+  {
+    "id": "css-postcss",
+    "title": "PostCSS",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/postcss.md",
+    "resources": [
+      {
+        "label": "PostCSS",
+        "url": "https://postcss.org/"
+      },
+      {
+        "label": "Autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer"
+      },
+      {
+        "label": "Tailwind: Using PostCSS",
+        "url": "https://tailwindcss.com/docs/installation/using-postcss"
+      }
+    ]
+  },
+  {
+    "id": "css-css-variables",
+    "title": "CSS variables",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/css-variables.md",
+    "resources": [
+      {
+        "label": "MDN: Using CSS custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"
+      },
+      {
+        "label": "MDN: prefers-color-scheme",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
+      },
+      {
+        "label": "web.dev: prefers-color-scheme",
+        "url": "https://web.dev/articles/prefers-color-scheme"
+      },
+      {
+        "label": "Svelte docs: style directive",
+        "url": "https://svelte.dev/docs/svelte/style"
+      }
+    ]
+  },
+  {
+    "id": "css-accessibility-in-css",
+    "title": "Accessibility in CSS",
+    "category": "CSS & Tailwind",
+    "priority": "medium",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/accessibility-in-css.md",
+    "resources": [
+      {
+        "label": "MDN: :focus-visible",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"
+      },
+      {
+        "label": "MDN: prefers-reduced-motion",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"
+      },
+      {
+        "label": "web.dev: Color and contrast accessibility",
+        "url": "https://web.dev/articles/color-and-contrast-accessibility"
+      },
+      {
+        "label": "web.dev: Learn Accessibility - Focus",
+        "url": "https://web.dev/learn/accessibility/focus"
+      }
+    ]
+  },
+  {
+    "id": "css-modern-css",
+    "title": "Modern CSS",
+    "category": "CSS & Tailwind",
+    "priority": "low",
+    "tags": [
+      "round-2"
+    ],
+    "note": "notes/css/modern-css.md",
+    "resources": [
+      {
+        "label": "MDN: Container queries",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries"
+      },
+      {
+        "label": "MDN: :has()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has"
+      },
+      {
+        "label": "MDN: CSS nesting",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting"
+      },
+      {
+        "label": "MDN: Logical properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values"
+      }
+    ]
+  },
+  {
+    "id": "sec-xss",
+    "title": "XSS",
+    "category": "Security & networking",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-csrf",
+    "title": "CSRF",
+    "category": "Security & networking",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-auth-token-storage",
+    "title": "Auth token storage",
+    "category": "Security & networking",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-cors",
+    "title": "CORS",
+    "category": "Security & networking",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-http-basics",
+    "title": "HTTP basics",
+    "category": "Security & networking",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-rest-vs-websockets-vs-sse-vs-polling",
+    "title": "REST vs WebSockets vs SSE vs polling",
+    "category": "Security & networking",
+    "priority": "high",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-websocket-handling",
+    "title": "WebSocket handling",
+    "category": "Security & networking",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-clickjacking",
+    "title": "Clickjacking",
+    "category": "Security & networking",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-sensitive-data-in-frontend",
+    "title": "Sensitive data in frontend",
+    "category": "Security & networking",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-third-party-scripts",
+    "title": "Third-party scripts",
+    "category": "Security & networking",
+    "priority": "medium",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "sec-https-and-tls",
+    "title": "HTTPS and TLS",
+    "category": "Security & networking",
+    "priority": "low",
+    "tags": [
+      
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-testing-pyramid",
+    "title": "Testing pyramid",
+    "category": "Testing & CI/CD",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/testing/testing-pyramid.md",
+    "resources": [
+      {
+        "label": "Martin Fowler: The Practical Test Pyramid",
+        "url": "https://martinfowler.com/articles/practical-test-pyramid.html"
+      },
+      {
+        "label": "web.dev: Testing strategies",
+        "url": "https://web.dev/articles/ta-strategies"
+      },
+      {
+        "label": "web.dev: Types of tests",
+        "url": "https://web.dev/articles/ta-types"
+      },
+      {
+        "label": "Testing trophy by Kent C. Dodds",
+        "url": "https://kentcdodds.com/blog/the-testing-trophy-and-testing-classifications"
+      }
+    ]
+  },
+  {
+    "id": "test-vitest",
+    "title": "Vitest",
+    "category": "Testing & CI/CD",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/testing/vitest.md",
+    "resources": [
+      {
+        "label": "Vitest: Getting started",
+        "url": "https://vitest.dev/guide/"
+      },
+      {
+        "label": "Vitest: Mocking",
+        "url": "https://vitest.dev/guide/mocking"
+      },
+      {
+        "label": "Vitest: Mocking timers",
+        "url": "https://vitest.dev/guide/mocking/timers"
+      },
+      {
+        "label": "Vitest: vi API",
+        "url": "https://vitest.dev/api/vi"
+      }
+    ]
+  },
+  {
+    "id": "test-component-testing",
+    "title": "Component testing",
+    "category": "Testing & CI/CD",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-e2e-testing",
+    "title": "E2E testing",
+    "category": "Testing & CI/CD",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-what-to-test-in-a-trading-or-payment-flow",
+    "title": "What to test in a trading or payment flow",
+    "category": "Testing & CI/CD",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-eslint-and-prettier",
+    "title": "ESLint and Prettier",
+    "category": "Testing & CI/CD",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-husky-and-lint-staged",
+    "title": "Husky and lint-staged",
+    "category": "Testing & CI/CD",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-ci-cd-pipeline",
+    "title": "CI/CD pipeline",
+    "category": "Testing & CI/CD",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-build-tools",
+    "title": "Build tools",
+    "category": "Testing & CI/CD",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-feature-flags",
+    "title": "Feature flags",
+    "category": "Testing & CI/CD",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "test-12-factor-app",
+    "title": "12-factor app",
+    "category": "Testing & CI/CD",
+    "priority": "low",
+    "tags": [
+      "round-3"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-login-form",
+    "title": "Login form",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": "notes/machine-coding/login-form.md",
+    "resources": [
+      {
+        "label": "web.dev: Sign-in form best practices",
+        "url": "https://web.dev/articles/sign-in-form-best-practices"
+      },
+      {
+        "label": "MDN: Client-side form validation",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation"
+      },
+      {
+        "label": "OWASP: Authentication cheat sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+      },
+      {
+        "label": "SvelteKit: Form actions",
+        "url": "https://svelte.dev/docs/kit/form-actions"
+      }
+    ]
+  },
+  {
+    "id": "mc-autocomplete-search",
+    "title": "Autocomplete / search",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": "notes/machine-coding/autocomplete-search.md",
+    "resources": [
+      {
+        "label": "W3C APG: Combobox pattern",
+        "url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/"
+      },
+      {
+        "label": "MDN: combobox role",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/combobox_role"
+      },
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "Svelte: $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      }
+    ]
+  },
+  {
+    "id": "mc-stock-watchlist",
+    "title": "Stock watchlist",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": "notes/machine-coding/stock-watchlist.md",
+    "resources": [
+      {
+        "label": "MDN: WebSocket",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket"
+      },
+      {
+        "label": "MDN: requestAnimationFrame",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      },
+      {
+        "label": "Svelte: $state",
+        "url": "https://svelte.dev/docs/svelte/$state"
+      },
+      {
+        "label": "Svelte: each blocks",
+        "url": "https://svelte.dev/docs/svelte/each"
+      }
+    ]
+  },
+  {
+    "id": "mc-otp-input",
+    "title": "OTP input",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": "notes/machine-coding/otp-input.md",
+    "resources": [
+      {
+        "label": "web.dev: SMS OTP form best practices",
+        "url": "https://web.dev/articles/sms-otp-form"
+      },
+      {
+        "label": "MDN: inputmode",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inputmode"
+      },
+      {
+        "label": "MDN: paste event",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/paste_event"
+      },
+      {
+        "label": "MDN: WebOTP API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebOTP_API"
+      }
+    ]
+  },
+  {
+    "id": "mc-infinite-scroll-list",
+    "title": "Infinite scroll list",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-tabs-accordion-modal",
+    "title": "Tabs / accordion / modal",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-toast-notification-system",
+    "title": "Toast notification system",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-pagination-data-table",
+    "title": "Pagination / data table",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-order-form-buy-sell",
+    "title": "Order form (buy/sell)",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-progress-bar-countdown-timer",
+    "title": "Progress bar / countdown timer",
+    "category": "Machine coding & system design",
+    "priority": "low",
+    "tags": [
+      "round-2",
+      "machine-coding"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-trading-dashboard-with-live-prices",
+    "title": "Trading dashboard with live prices",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-offline-capable-pwa-for-investing-app",
+    "title": "Offline-capable PWA for investing app",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-shared-component-library",
+    "title": "Shared component library",
+    "category": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-web-app-inside-native-app-webview",
+    "title": "Web app inside native app (WebView)",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-notification-system",
+    "title": "Notification system",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "mc-large-sveltekit-app-architecture",
+    "title": "Large SvelteKit app architecture",
+    "category": "Machine coding & system design",
+    "priority": "medium",
+    "tags": [
+      "round-2",
+      "system-design"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-hash-map-set",
+    "title": "Hash map / Set",
+    "category": "DSA",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
     "resources": []
   },
   {
     "id": "dsa-two-pointers",
     "title": "Two pointers",
     "category": "DSA",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-sliding-window",
+    "title": "Sliding window",
+    "category": "DSA",
     "priority": "medium",
-    "tags": ["arrays", "patterns"],
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-stack",
+    "title": "Stack",
+    "category": "DSA",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-strings-and-arrays",
+    "title": "Strings and arrays",
+    "category": "DSA",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-sorting-and-searching",
+    "title": "Sorting and searching",
+    "category": "DSA",
+    "priority": "medium",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-recursion-and-trees-basic",
+    "title": "Recursion and trees (basic)",
+    "category": "DSA",
+    "priority": "low",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "dsa-big-o",
+    "title": "Big-O",
+    "category": "DSA",
+    "priority": "high",
+    "tags": [
+      "jd"
+    ],
+    "note": null,
+    "resources": []
+  },
+  {
+    "id": "hm-project-deep-dive",
+    "title": "Project deep dive",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/project-deep-dive.md",
     "resources": [
-      { "label": "LeetCode: Two pointers problems", "url": "https://leetcode.com/tag/two-pointers/" }
+      {
+        "label": "web.dev: User-centric performance metrics",
+        "url": "https://web.dev/articles/user-centric-performance-metrics"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "MDN: Performance API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API"
+      }
+    ]
+  },
+  {
+    "id": "hm-payments-work",
+    "title": "Payments work: failures, timeouts, double submits",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/payments-work.md",
+    "resources": [
+      {
+        "label": "MDN: Payment Request API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API"
+      },
+      {
+        "label": "MDN: AbortSignal.timeout()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/timeout_static"
+      },
+      {
+        "label": "MDN: Idempotent",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/Idempotent"
+      },
+      {
+        "label": "MDN: crypto.randomUUID()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID"
+      }
+    ]
+  },
+  {
+    "id": "hm-performance-win",
+    "title": "Performance work: measuring a render-time win",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/performance-win.md",
+    "resources": [
+      {
+        "label": "Chrome DevTools: Performance panel",
+        "url": "https://developer.chrome.com/docs/devtools/performance"
+      },
+      {
+        "label": "MDN: Performance API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API"
+      },
+      {
+        "label": "web.dev: Optimize long tasks",
+        "url": "https://web.dev/articles/optimize-long-tasks"
+      },
+      {
+        "label": "web.dev: Lab and field data",
+        "url": "https://web.dev/articles/lab-and-field-data-differences"
+      }
+    ]
+  },
+  {
+    "id": "hm-design-system-shared-components",
+    "title": "Design system / shared components",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/design-system-shared-components.md",
+    "resources": [
+      {
+        "label": "MDN: Using CSS custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties"
+      },
+      {
+        "label": "Svelte docs: Snippets",
+        "url": "https://svelte.dev/docs/svelte/snippet"
+      },
+      {
+        "label": "Svelte docs: $props",
+        "url": "https://svelte.dev/docs/svelte/$props"
+      },
+      {
+        "label": "MDN: Accessibility",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+      }
+    ]
+  },
+  {
+    "id": "hm-svelte-in-production",
+    "title": "Svelte in production",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/svelte-in-production.md",
+    "resources": [
+      {
+        "label": "Svelte docs: Overview",
+        "url": "https://svelte.dev/docs/svelte/overview"
+      },
+      {
+        "label": "Svelte docs: What are runes?",
+        "url": "https://svelte.dev/docs/svelte/what-are-runes"
+      },
+      {
+        "label": "Svelte 5 migration guide",
+        "url": "https://svelte.dev/docs/svelte/v5-migration-guide"
+      },
+      {
+        "label": "Svelte docs: $effect",
+        "url": "https://svelte.dev/docs/svelte/$effect"
+      }
+    ]
+  },
+  {
+    "id": "hm-sdlc",
+    "title": "SDLC",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/sdlc.md",
+    "resources": [
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "Playwright: Getting started",
+        "url": "https://playwright.dev/docs/intro"
+      },
+      {
+        "label": "Vitest guide",
+        "url": "https://vitest.dev/guide/"
+      },
+      {
+        "label": "OWASP Top Ten",
+        "url": "https://owasp.org/www-project-top-ten/"
+      }
+    ]
+  },
+  {
+    "id": "hm-observability",
+    "title": "Observability",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/observability.md",
+    "resources": [
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "MDN: Navigator.sendBeacon()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon"
+      },
+      {
+        "label": "SvelteKit: Hooks (handleError)",
+        "url": "https://svelte.dev/docs/kit/hooks"
+      },
+      {
+        "label": "OWASP Logging Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+      }
+    ]
+  },
+  {
+    "id": "hm-incident-and-rca",
+    "title": "Incident and RCA",
+    "category": "Hiring manager",
+    "priority": "high",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/incident-and-rca.md",
+    "resources": [
+      {
+        "label": "MDN: AbortController",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "OWASP Logging Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html"
+      }
+    ]
+  },
+  {
+    "id": "hm-code-review",
+    "title": "Code review",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/code-review.md",
+    "resources": [
+      {
+        "label": "OWASP Code Review Guide",
+        "url": "https://owasp.org/www-project-code-review-guide/"
+      },
+      {
+        "label": "OWASP XSS Prevention Cheat Sheet",
+        "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      },
+      {
+        "label": "web.dev: Learn Accessibility",
+        "url": "https://web.dev/learn/accessibility"
+      },
+      {
+        "label": "Testing Library: Guiding principles",
+        "url": "https://testing-library.com/docs/guiding-principles"
+      }
+    ]
+  },
+  {
+    "id": "hm-mentoring",
+    "title": "Mentoring",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/mentoring.md",
+    "resources": [
+      {
+        "label": "MDN: Learn web development",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development"
+      },
+      {
+        "label": "Svelte tutorial",
+        "url": "https://svelte.dev/tutorial"
+      },
+      {
+        "label": "web.dev: Learn",
+        "url": "https://web.dev/learn"
+      }
+    ]
+  },
+  {
+    "id": "hm-working-with-product-design-qa",
+    "title": "Working with Product, Design, QA",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/working-with-product-design-qa.md",
+    "resources": [
+      {
+        "label": "web.dev: Interaction to Next Paint (INP)",
+        "url": "https://web.dev/articles/inp"
+      },
+      {
+        "label": "web.dev: Learn Accessibility",
+        "url": "https://web.dev/learn/accessibility"
+      },
+      {
+        "label": "Playwright: Getting started",
+        "url": "https://playwright.dev/docs/intro"
+      }
+    ]
+  },
+  {
+    "id": "hm-ownership-and-velocity",
+    "title": "Ownership and velocity",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/ownership-and-velocity.md",
+    "resources": [
+      {
+        "label": "MDN: Crypto.randomUUID()",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID"
+      },
+      {
+        "label": "Playwright: Getting started",
+        "url": "https://playwright.dev/docs/intro"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      }
+    ]
+  },
+  {
+    "id": "hm-metrics-driven-mindset",
+    "title": "Metrics-driven mindset",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/metrics-driven-mindset.md",
+    "resources": [
+      {
+        "label": "web.dev: User-centric performance metrics",
+        "url": "https://web.dev/articles/user-centric-performance-metrics"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      },
+      {
+        "label": "MDN: Performance API",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API"
+      }
+    ]
+  },
+  {
+    "id": "hm-behavioural",
+    "title": "Behavioural",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/behavioural.md",
+    "resources": [
+      {
+        "label": "Svelte tutorial",
+        "url": "https://svelte.dev/tutorial"
+      },
+      {
+        "label": "Svelte 5 migration guide",
+        "url": "https://svelte.dev/docs/svelte/v5-migration-guide"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      }
+    ]
+  },
+  {
+    "id": "hm-your-questions-for-them",
+    "title": "Your questions for them",
+    "category": "Hiring manager",
+    "priority": "medium",
+    "tags": [
+      "round-3"
+    ],
+    "note": "notes/hiring-manager/your-questions-for-them.md",
+    "resources": [
+      {
+        "label": "Svelte 5 migration guide",
+        "url": "https://svelte.dev/docs/svelte/v5-migration-guide"
+      },
+      {
+        "label": "MDN: Progressive web apps",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+      },
+      {
+        "label": "Android Developers: WebView",
+        "url": "https://developer.android.com/develop/ui/views/layout/webapps/webview"
+      },
+      {
+        "label": "web.dev: Web Vitals",
+        "url": "https://web.dev/articles/vitals"
+      }
     ]
   }
 ]
