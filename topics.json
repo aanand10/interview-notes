@@ -1588,9 +1588,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/typescript/interface-vs-type.md",
     "resources": [
       {
@@ -1613,9 +1611,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/typescript/generics.md",
     "resources": [
       {
@@ -1642,9 +1638,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1654,9 +1648,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1666,9 +1658,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1678,9 +1668,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1690,9 +1678,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1702,9 +1688,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1714,9 +1698,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "low",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -1726,9 +1708,7 @@
     "category": "TypeScript",
     "area": "JavaScript",
     "priority": "low",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": null,
     "resources": []
   },
@@ -4528,9 +4508,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/xss.md",
     "resources": [
       {
@@ -4557,9 +4535,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/csrf.md",
     "resources": [
       {
@@ -4586,9 +4562,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/auth-token-storage.md",
     "resources": [
       {
@@ -4615,9 +4589,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/cors.md",
     "resources": [
       {
@@ -4644,9 +4616,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/http-basics.md",
     "resources": [
       {
@@ -4673,9 +4643,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "high",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/rest-vs-websockets-vs-sse-vs-polling.md",
     "resources": [
       {
@@ -4702,9 +4670,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/websocket-handling.md",
     "resources": [
       {
@@ -4731,9 +4697,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/clickjacking.md",
     "resources": [
       {
@@ -4756,9 +4720,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/sensitive-data-in-frontend.md",
     "resources": [
       {
@@ -4785,9 +4747,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "medium",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/third-party-scripts.md",
     "resources": [
       {
@@ -4814,9 +4774,7 @@
     "category": "Security & networking",
     "area": "Web platform",
     "priority": "low",
-    "tags": [
-      
-    ],
+    "tags": [],
     "note": "notes/security/https-and-tls.md",
     "resources": [
       {
