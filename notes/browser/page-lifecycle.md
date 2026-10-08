@@ -14,24 +14,7 @@
 - **Browser architecture behind it:** modern browsers are multi-process. A **browser process** (UI, network, storage), a **renderer process** per site (runs your JS, DOM, layout on its **main thread**, plus a **compositor** thread and raster threads), and a **GPU process**. This is why one crashed tab does not kill the browser. See [Inside a modern browser](https://developer.chrome.com/blog/inside-browser-part1).
 
 ## The picture
-```text
- navigation start
-      |
-  [loading] --parse HTML--> DOMContentLoaded --subresources--> load
-      |
-      v
-  ACTIVE  <--focus/blur-->  PASSIVE
-      |  tab switch / minimise / lock screen        (visibilitychange -> hidden)
-      v
-  HIDDEN --------------------------------------+
-      |  browser pauses it to save battery      |  user closes tab / navigates away
-      v                                         v      (pagehide, maybe unload)
-  FROZEN (freeze) --resume--> HIDDEN        TERMINATED
-      |
-      | memory pressure
-      v
-  DISCARDED  (next time the tab is opened it reloads; document.wasDiscarded === true)
-```
+![Page lifecycle: Loading, Active, Passive, Hidden, Frozen, Terminated and Discarded states with the events between them](img/page-lifecycle.svg)
 
 ## Example
 ```js
