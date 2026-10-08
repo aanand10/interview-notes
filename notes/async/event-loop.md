@@ -27,6 +27,39 @@
    Loop: stack empty? -> run ALL microtasks -> (maybe render) -> take ONE task -> repeat
 ```
 
+## Event loop architecture (one full turn)
+What the [HTML spec's processing model](https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model) does on every turn, in simple steps:
+
+```text
+ 1. Pick ONE task from a task queue        (setTimeout, click, message, network callback)
+    -> run it to completion on the call stack
+ 2. Microtask checkpoint                   (promise.then, await, queueMicrotask, MutationObserver)
+    -> run ALL microtasks, including ones queued while draining
+ 3. Update the rendering (if it is time, ~every 16.7 ms at 60 Hz, and the tab is visible)
+    a. resize / scroll events
+    b. requestAnimationFrame callbacks
+    c. style -> layout -> paint (IntersectionObserver / ResizeObserver also run here)
+ 4. If there is spare time before the next frame: requestIdleCallback
+ 5. Repeat
+```
+
+- There is **more than one task queue** (user input, timers, network). The browser picks which queue to serve, and usually gives user input higher priority. Only the **order inside one queue** is guaranteed.
+- **Rendering is not after every task.** It happens at the screen's refresh rate. Two `setTimeout`s can run in the same frame, and `requestAnimationFrame` runs once per frame, right before paint.
+- **Microtasks can starve rendering.** A microtask that queues another microtask forever freezes the page (no render, no clicks), while a `setTimeout` loop does not.
+- **Where it lives:** each renderer process has a **main thread** that runs this loop (JS, style, layout, paint). The **compositor** and **raster** threads handle scrolling and `transform`/`opacity` animations, which is why those stay smooth when JS is busy. Network, timers and file reading run on other threads and only post callbacks back.
+- **Workers** each have their own event loop and call stack (no DOM, no rendering step).
+- **Node.js** (libuv) has phases instead of a rendering step: timers -> pending callbacks -> poll (I/O) -> check (`setImmediate`) -> close callbacks. `process.nextTick` runs before promise microtasks. See [Node docs: event loop](https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick).
+
+```js
+// rAF vs setTimeout vs microtask in one frame
+setTimeout(() => console.log('timeout'), 0);
+requestAnimationFrame(() => console.log('rAF (before paint)'));
+Promise.resolve().then(() => console.log('microtask'));
+console.log('sync');
+// sync, microtask, then usually timeout before rAF,
+// but rAF can come first if a frame is due; only "sync, microtask" first is guaranteed
+```
+
 ## Example
 The classic output question. Run with `node` (same order in browsers):
 
@@ -120,6 +153,12 @@ No. 0 is the minimum delay, not a promise. It runs after the current script and 
 
 ### Is JavaScript single-threaded? Then how does fetch run in parallel?
 Your JS code runs on one thread. But the browser itself is multi-threaded: network, timers and decoding happen elsewhere. Only the callback comes back to your thread. For real parallel JS you use Web Workers.
+
+### Explain the architecture of the event loop. Where does rendering fit?
+Each turn the loop takes one task, runs it to completion, then drains the whole microtask queue. Then, if a frame is due (about every 16 ms) the browser runs `requestAnimationFrame` callbacks and does style, layout and paint. Spare time goes to `requestIdleCallback`. There are several task queues with different priorities (input is usually first). All of this runs on the renderer's main thread, while the compositor thread can scroll and run `transform` animations independently. So a long task delays clicks and paints, and an endless chain of microtasks blocks rendering completely.
+
+### Browser event loop vs Node.js event loop?
+Both run one task then drain microtasks. The browser has task queues plus a rendering step. Node (libuv) has fixed phases: timers, pending callbacks, poll for I/O, check (`setImmediate`), close callbacks, and drains `process.nextTick` and promise microtasks between callbacks. `process.nextTick` runs before promise callbacks. In Node, `setTimeout(0)` vs `setImmediate` order is not fixed from the main module, but inside an I/O callback `setImmediate` always runs first.
 
 ## Common mistakes
 - Thinking `await` blocks the whole program. It only pauses that async function.
