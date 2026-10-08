@@ -1512,15 +1512,28 @@
   },
   {
     "id": "poly-flatten-array-object",
-    "title": "`flatten` array / object",
+    "title": "`flatten` array / object (object flattening)",
     "category": "Polyfills",
     "area": "JavaScript",
-    "priority": "medium",
+    "priority": "high",
     "tags": [
       "round-1"
     ],
-    "note": null,
-    "resources": []
+    "note": "notes/polyfills/flatten-array-object.md",
+    "resources": [
+      {
+        "label": "MDN: Array.prototype.flat",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+      },
+      {
+        "label": "MDN: Object.entries",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+      },
+      {
+        "label": "javascript.info: Recursion and stack",
+        "url": "https://javascript.info/recursion"
+      }
+    ]
   },
   {
     "id": "poly-event-emitter",
@@ -3347,6 +3360,35 @@
     ]
   },
   {
+    "id": "browser-page-lifecycle",
+    "title": "Browser and page lifecycle",
+    "category": "Browser & DOM",
+    "area": "Web platform",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/browser/page-lifecycle.md",
+    "resources": [
+      {
+        "label": "Chrome: Page Lifecycle API",
+        "url": "https://developer.chrome.com/docs/web-platform/page-lifecycle-api"
+      },
+      {
+        "label": "MDN: visibilitychange",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event"
+      },
+      {
+        "label": "web.dev: Back/forward cache",
+        "url": "https://web.dev/articles/bfcache"
+      },
+      {
+        "label": "Chrome: Inside a modern browser",
+        "url": "https://developer.chrome.com/blog/inside-browser-part1"
+      }
+    ]
+  },
+  {
     "id": "browser-script-loading",
     "title": "Script loading",
     "category": "Browser & DOM",
@@ -3577,6 +3619,7 @@
     "area": "Web platform",
     "priority": "high",
     "tags": [
+      "round-1",
       "round-3"
     ],
     "note": "notes/performance/how-to-approach-a-slow-app.md",
@@ -3596,6 +3639,32 @@
       {
         "label": "web.dev: Why lab and field data differ",
         "url": "https://web.dev/articles/lab-and-field-data-differences"
+      }
+    ]
+  },
+  {
+    "id": "perf-application-performance-optimisation",
+    "title": "Application performance optimisation (full answer)",
+    "category": "Performance",
+    "area": "Web platform",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2"
+    ],
+    "note": "notes/performance/application-performance-optimisation.md",
+    "resources": [
+      {
+        "label": "web.dev: Learn Performance",
+        "url": "https://web.dev/learn/performance"
+      },
+      {
+        "label": "web.dev: Optimize LCP",
+        "url": "https://web.dev/articles/optimize-lcp"
+      },
+      {
+        "label": "web.dev: Optimize INP",
+        "url": "https://web.dev/articles/optimize-inp"
       }
     ]
   },
@@ -3890,6 +3959,31 @@
     ]
   },
   {
+    "id": "perf-render-blocking-css",
+    "title": "Does CSS block rendering? Loading huge CSS",
+    "category": "Performance",
+    "area": "Web platform",
+    "priority": "high",
+    "tags": [
+      "round-1"
+    ],
+    "note": "notes/performance/render-blocking-css.md",
+    "resources": [
+      {
+        "label": "web.dev: Render-blocking CSS",
+        "url": "https://web.dev/articles/critical-rendering-path/render-blocking-css"
+      },
+      {
+        "label": "web.dev: Defer non-critical CSS",
+        "url": "https://web.dev/articles/defer-non-critical-css"
+      },
+      {
+        "label": "Chrome DevTools: Coverage",
+        "url": "https://developer.chrome.com/docs/devtools/coverage"
+      }
+    ]
+  },
+  {
     "id": "perf-low-end-devices",
     "title": "Low-end devices",
     "category": "Performance",
@@ -3923,8 +4017,9 @@
     "title": "Monitoring performance in production",
     "category": "Performance",
     "area": "Web platform",
-    "priority": "medium",
+    "priority": "high",
     "tags": [
+      "round-1",
       "round-3"
     ],
     "note": "notes/performance/monitoring-performance-in-production.md",
@@ -5281,6 +5376,33 @@
       {
         "label": "MDN: WebOTP API",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebOTP_API"
+      }
+    ]
+  },
+  {
+    "id": "mc-lru-cache",
+    "title": "LRU cache (implementation + UI)",
+    "category": "Machine coding & system design",
+    "area": "Machine coding & system design",
+    "priority": "high",
+    "tags": [
+      "round-1",
+      "round-2",
+      "machine-coding"
+    ],
+    "note": "notes/machine-coding/lru-cache.md",
+    "resources": [
+      {
+        "label": "LeetCode 146: LRU Cache",
+        "url": "https://leetcode.com/problems/lru-cache/"
+      },
+      {
+        "label": "MDN: Map",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map"
+      },
+      {
+        "label": "Wikipedia: Cache replacement policies",
+        "url": "https://en.wikipedia.org/wiki/Cache_replacement_policies"
       }
     ]
   },
