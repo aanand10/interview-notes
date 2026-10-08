@@ -10,38 +10,16 @@
 - The browser can **render** (style, layout, paint, plus `requestAnimationFrame`) only between tasks, after microtasks are done. A long task blocks clicks and paint. See [MDN: execution model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model).
 
 ## The picture (draw this on the whiteboard)
-```text
-            +------------------+        +------------------------+
- your code  |    CALL STACK    | -----> |  Web APIs / Node APIs  |
- runs here  |  (one at a time) |  start |  timers, fetch, events |
-            +------------------+  work  +------------------------+
-                    ^                          |  when done, queue the callback
-                    |                          v
-                    |            +-----------------------------+
-                    |            | MICROTASK QUEUE (high prio) |  <- promise.then, await, queueMicrotask
-                    |            +-----------------------------+
-                    |            | TASK QUEUE (macrotasks)     |  <- setTimeout, setInterval, click, message
-                    |            +-----------------------------+
-                    |                          |
-                    +------- EVENT LOOP -------+
-   Loop: stack empty? -> run ALL microtasks -> (maybe render) -> take ONE task -> repeat
-```
+![Event loop: call stack, Web APIs, task queue, microtask queue and the render step](img/event-loop.svg)
 
 ## Event loop architecture (one full turn)
 What the [HTML spec's processing model](https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model) does on every turn, in simple steps:
 
-```text
- 1. Pick ONE task from a task queue        (setTimeout, click, message, network callback)
-    -> run it to completion on the call stack
- 2. Microtask checkpoint                   (promise.then, await, queueMicrotask, MutationObserver)
-    -> run ALL microtasks, including ones queued while draining
- 3. Update the rendering (if it is time, ~every 16.7 ms at 60 Hz, and the tab is visible)
-    a. resize / scroll events
-    b. requestAnimationFrame callbacks
-    c. style -> layout -> paint (IntersectionObserver / ResizeObserver also run here)
- 4. If there is spare time before the next frame: requestIdleCallback
- 5. Repeat
-```
+1. **Pick ONE task** from a task queue (`setTimeout`, click, message, network callback) and run it to completion on the call stack.
+2. **Microtask checkpoint:** run **ALL** microtasks (`promise.then`, `await`, `queueMicrotask`, `MutationObserver`), including ones queued while draining.
+3. **Update the rendering**, only if a frame is due (~every 16.7 ms at 60 Hz) and the tab is visible: resize/scroll events, then `requestAnimationFrame` callbacks, then style, layout and paint (`IntersectionObserver` and `ResizeObserver` also run here).
+4. **Idle time** before the next frame goes to `requestIdleCallback`.
+5. Repeat.
 
 - There is **more than one task queue** (user input, timers, network). The browser picks which queue to serve, and usually gives user input higher priority. Only the **order inside one queue** is guaranteed.
 - **Rendering is not after every task.** It happens at the screen's refresh rate. Two `setTimeout`s can run in the same frame, and `requestAnimationFrame` runs once per frame, right before paint.

@@ -10,20 +10,7 @@
 - Bonus asks: TTL (expire after N ms), `onEvict` callback, size by bytes instead of count, a UI that shows the order.
 
 ## The picture (draw this first)
-```text
- capacity = 3
-
-  hash map (key -> node)           doubly linked list (most recent on the left)
-  +-----+------+
-  |  A  |  *---+---------->  HEAD <-> [A] <-> [C] <-> [B] <-> TAIL
-  |  B  |  *---+-----------------------------------^
-  |  C  |  *---+-------------------^              (LRU, evicted next)
-  +-----+------+
-
- get(B)     -> found in map, unlink B, insert after HEAD     HEAD <-> B <-> A <-> C <-> TAIL
- put(D, 4)  -> full, remove node before TAIL (C) + map entry, then add D at front
-                                                             HEAD <-> D <-> B <-> A <-> TAIL
-```
+![LRU cache: a hash map points at nodes in a doubly linked list; get moves a node to the front, put evicts the node before TAIL](img/lru-cache.svg)
 - **Map** answers "where is key X?" in O(1).
 - **Doubly linked list** answers "who is oldest?" (node before `TAIL`) and lets you unlink any node in O(1) because each node knows its `prev` and `next`.
 - `HEAD` and `TAIL` are dummy (sentinel) nodes, so you never special-case an empty list.

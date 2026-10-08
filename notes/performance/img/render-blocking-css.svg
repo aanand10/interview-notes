@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 470" width="860" height="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Render-blocking CSS timeline</title>
+  <style>
+    .t { fill: #0f172a; font-size: 14px; }
+    .h { fill: #0f172a; font-size: 16px; font-weight: 600; }
+    .s { fill: #475569; font-size: 12.5px; }
+    .w { fill: #ffffff; font-size: 12.5px; font-weight: 600; }
+    .d { fill: #0f172a; font-size: 12.5px; }
+  </style>
+  <defs>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#fee2e2"/>
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#f87171" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="858" height="468" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- Panel 1 -->
+  <text x="30" y="36" class="h">Before: one big stylesheet + classic script in &lt;head&gt;</text>
+
+  <text x="30" y="77" class="t">HTML parser</text>
+  <rect x="190" y="60" width="170" height="26" rx="5" fill="#2563eb"/>
+  <text x="275" y="78" class="w" text-anchor="middle">parse → DOM</text>
+  <rect x="360" y="60" width="250" height="26" fill="url(#hatch)" stroke="#f87171"/>
+  <text x="455" y="78" class="d" text-anchor="middle">paused: waiting for script</text>
+  <rect x="610" y="60" width="160" height="26" rx="5" fill="#2563eb"/>
+  <text x="690" y="78" class="w" text-anchor="middle">parse rest</text>
+
+  <text x="30" y="117" class="t">app.css (300 KB)</text>
+  <rect x="200" y="100" width="300" height="26" rx="5" fill="#f59e0b"/>
+  <text x="350" y="118" class="d" text-anchor="middle">download</text>
+  <rect x="500" y="100" width="60" height="26" rx="5" fill="#b45309"/>
+  <text x="530" y="118" class="w" text-anchor="middle">CSSOM</text>
+
+  <text x="30" y="157" class="t">&lt;script&gt; (classic)</text>
+  <rect x="210" y="140" width="150" height="26" rx="5" fill="#94a3b8"/>
+  <text x="285" y="158" class="d" text-anchor="middle">download</text>
+  <rect x="360" y="140" width="200" height="26" fill="url(#hatch)" stroke="#f87171"/>
+  <text x="460" y="158" class="d" text-anchor="middle">waits for CSS</text>
+  <rect x="560" y="140" width="50" height="26" rx="5" fill="#475569"/>
+  <text x="585" y="158" class="w" text-anchor="middle">run</text>
+
+  <line x1="562" y1="52" x2="562" y2="196" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="572" y="192" class="s" style="fill:#dc2626">first paint: only after CSSOM is ready</text>
+  <text x="30" y="192" class="s">CSS blocks rendering, and blocks scripts → which block parsing</text>
+
+  <line x1="30" y1="216" x2="830" y2="216" stroke="#e2e8f0" stroke-width="1.5"/>
+
+  <!-- Panel 2 -->
+  <text x="30" y="250" class="h">After: critical CSS inline, rest async, script deferred</text>
+
+  <text x="30" y="291" class="t">HTML parser</text>
+  <rect x="190" y="274" width="350" height="26" rx="5" fill="#2563eb"/>
+  <text x="272" y="292" class="w">parse → DOM (critical CSS inline)</text>
+
+  <text x="30" y="331" class="t">app.css (preload)</text>
+  <rect x="200" y="314" width="240" height="26" rx="5" fill="#fcd34d"/>
+  <text x="272" y="332" class="d">download (not blocking)</text>
+  <rect x="440" y="314" width="70" height="26" rx="5" fill="#b45309"/>
+  <text x="475" y="332" class="w" text-anchor="middle">apply</text>
+
+  <text x="30" y="371" class="t">&lt;script defer&gt;</text>
+  <rect x="210" y="354" width="150" height="26" rx="5" fill="#94a3b8"/>
+  <text x="272" y="372" class="d">download</text>
+  <rect x="540" y="354" width="50" height="26" rx="5" fill="#475569"/>
+  <text x="565" y="372" class="w" text-anchor="middle">run</text>
+  <text x="600" y="372" class="s">after parsing</text>
+
+  <line x1="255" y1="266" x2="255" y2="410" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="265" y="406" class="s" style="fill:#16a34a">first paint: much earlier</text>
+
+  <!-- Axis -->
+  <line x1="190" y1="436" x2="800" y2="436" stroke="#94a3b8" stroke-width="1.5"/>
+  <path d="M800,431 L810,436 L800,441 z" fill="#94a3b8"/>
+  <text x="190" y="456" class="s">0 ms</text>
+  <text x="810" y="456" class="s" text-anchor="end">time →</text>
+</svg>

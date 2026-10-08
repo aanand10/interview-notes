@@ -12,12 +12,7 @@
 - **Big CSS hurts twice:** download time (blocks first paint, LCP) and **style recalculation** time (more rules x more DOM nodes = slower every style change).
 
 ## The picture
-```text
- HTML parse  ======DOM======================>
- app.css     ---download---|parse -> CSSOM|
- first paint                               X   <- waits for CSSOM
- <script>    (classic)          waits for CSS ---> runs ---> parser continues
-```
+![Timeline: a big stylesheet delays first paint and a classic script waits for it; with critical CSS inline and the rest async, first paint is much earlier](img/render-blocking-css.svg)
 
 ## How to load a huge CSS file
 ```html
